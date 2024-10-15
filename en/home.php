@@ -14,7 +14,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
   </head>
-<body class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-top" align="center">
+<body class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')]" align="center">
   <!-- TOP -->
    <header class="absolute inset-x-0 top-0 z-50 h-[28px] bg-[#307060] fixed" style="position: fixed;">
     <div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px]">
@@ -132,13 +132,13 @@
   </header>
   <!-- END NAV BAR -->
 
-  <div class="w-[1440px] m-auto">
+  <div class="w-[1440px] m-auto lg:w-[1405px] xl:w-[1400px]">
     
     <!-- SLIDER -->
       <div class="flex w-full flex-col">
         <div class="mt-[130px]">
           <div id="default-carousel" class="relative w-full" data-carousel="slide">
-              <div class="relative h-56 overflow-hidden rounded-lg md:h-[598px]">
+              <div class="relative h-56 overflow-hidden rounded-lg xl:h-[598px]">
                   <div class="hidden duration-700 ease-in-out" data-carousel-item>
                       <img src="./resources/img/slider/slider-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                   </div>
@@ -146,7 +146,7 @@
                       <img src="./resources/img/slider/slider-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                   </div>
               </div>
-              <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer">
+              <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer xl:mt-[-8px]">
                 <button type="button" class="group focus:outline-none" data-carousel-next>
                   <span class="inline-flex items-center justify-center w-[43px] h-[34px] bg-white/30 dark:bg-[#F1AE93] group-hover:bg-white/50 dark:group-hover:bg-[#F1AE93] group-focus:outline-none">
                       <svg class="w-4 h-4 text-white dark:text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -173,9 +173,9 @@
       <div class="mt-[90px]">
         <div class="items-center">
           <div class="float-left ml-[50px;]">
-            <img class="w-[735px] h-[571px]" src="./resources/img/home/about-us-home.png" alt="">
+            <img class="w-[735px] h-[571px] lg:w-[640px] lg:h-[auto]" src="./resources/img/home/about-us-home.png" alt="">
           </div>
-          <div class="float-left pl-[50px] mt-[60px] w-[40%]">
+          <div class="float-left pl-[50px] mt-[60px] w-[40%] lg:mt-[0px;]">
             <div class="text-left">
               <span class="text-[51px] font-bold leading-normal text-[#2F2E2E]" >About Us</span>
             </div>
@@ -195,7 +195,7 @@
     <!-- END ABOUT US -->
 
     <!-- DOCUMENTARY -->
-    <div class="flex w-full flex-col">
+    <div class="flex w-full flex-col lg:w-[101%] xl:w-[100%]">
       <div class="mt-[90px] h-[245px] bg-[url('./resources/img/bg/documentary.png')]">
         <br>
         <div class="text-center font-medium non-italic w-auto">
@@ -218,11 +218,11 @@
     <!-- MOVING IMAGE -->
     <div class="flex w-full flex-col">
       <div class="mt-[90px]">
-        <div class="w-[719px] h-[599px] float-left">
+        <div class="w-[719px] h-[599px] float-left lg:w-[702px] xl:w-[680px]">
           <div class="bg-[url('./resources/img/home/doc-image-dark.png')] hover:bg-[url('./resources/img/home/doc-image-real.png')] w-[719px] h-[599px]">
           </div>
         </div>
-        <div class="w-[719px] h-[599px] float-left">
+        <div class="w-[719px] h-[599px] float-left lg:w-[702px] xl:w-[680px]">
           <div class="bg-[url('./resources/img/home/doc-image-dark-1.png')] hover:bg-[url('./resources/img/home/doc-image-real-1.png')] w-[719px] h-[599px]">
           </div>
         </div>
@@ -259,7 +259,7 @@
     <div class="flex w-full flex-col">
       <div class="mt-[90px]">
         <div class="items-center">
-          <div class="float-left pl-[50px] mt-[60px] w-[40%]">
+          <div class="float-left pl-[50px] mt-[60px] w-[40%] lg:w-[45%] lg:mt-[0px] lg:w-[45%]">
             <div class="text-left">
               <span class="text-[51px] font-bold leading-normal text-[#2F2E2E]" >Annual Report</span>
             </div>
@@ -273,8 +273,8 @@
               <a href="">Download Annual Report</a>
             </div>
           </div>
-          <div class="float-left ml-[50px;]">
-            <img class="w-[735px] h-[571px]" src="./resources/img/home/annual-report.png" alt="">
+          <div class="float-left ml-[50px;] lg:ml-[75px]">
+            <img class="w-[735px] h-[571px] lg:w-[640px] lg:h-[auto]" src="./resources/img/home/annual-report.png" alt="">
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
 
     <!-- FEATURED -->
     <div class="flex w-full flex-col">
-      <div class="mt-[90px] bg-[#EFAE93]">
+      <div class="mt-[90px] bg-[#EFAE93] lg:w-[101%] xl:w-[100%]">
         <div class="m-[50px] h-[430px]">
           
           <div class="float-left">
@@ -293,7 +293,7 @@
             
             <div class="float-left">
               <div class="w-[100%] text-left mt-[40px]">
-                <div class="w-[396px] h-[298px]">
+                <div class="w-[396px] h-[298px] lg:w-[389px] xl:w-[379px]">
                   <img src="./resources/img/home/feature-1.png" alt="">
 
                   <div class="mt-[20px] text-white text-[28px] font-[700]">
@@ -308,7 +308,7 @@
 
             <div class="float-left">
               <div class="w-[100%] text-left mt-[40px] ml-[76px]">
-                <div class="w-[396px] h-[298px]">
+                <div class="w-[396px] h-[298px] lg:w-[389px] xl:w-[379px]">
                   <img src="./resources/img/home/feature-2.png" alt="">
 
                   <div class="mt-[20px] text-white text-[28px] font-[700]">
@@ -323,7 +323,7 @@
 
             <div class="float-left">
               <div class="w-[100%] text-left mt-[40px] ml-[76px]">
-                <div class="w-[396px] h-[298px]">
+                <div class="w-[396px] h-[298px] lg:w-[389px] xl:w-[379px]">
                   <img src="./resources/img/home/feature-3.png" alt="">
 
                   <div class="mt-[20px] text-white text-[28px] font-[700]">
@@ -350,8 +350,7 @@
             PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices. 
           </div>
         </div>
-        <div class="float-left ml-[50px] mb-[50px] w-[430px]"></div>
-        <div class="float-left ml-[50px] mb-[50px] w-[430px]">
+        <div class="float-left ml-[495px] mb-[50px] w-[430px] lg:ml-[495px] xl:ml-[484px]">
           <div class="float-left w-[215px] text-left">
             Site Map
 
@@ -377,12 +376,11 @@
           </div>
         </div>
       </div>
-      <div class="bg-[#307060] h-[50px] text-left">
+      <div class="bg-[#307060] h-[50px] text-left lg:w-[101%] xl:w-[100%]">
           <div class="float-left ml-[50px] mt-[15px] w-[430px]">
             <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
           </div>
-          <div class="float-left ml-[50px] mt-[15px] w-[430px]"></div>
-          <div class="float-left ml-[50px] mt-[15px] w-[430px]">
+          <div class="float-left ml-[50px] mt-[15px] w-[430px] lg:ml-[495px] xl:ml-[484px]">
             <span class="text-white text-[14px]">Accessibility</span>
             <span class="text-white text-[14px] ml-[65px]">Legal</span>
             <span class="text-white text-[14px] ml-[65px]">Privacy Statement</span>
