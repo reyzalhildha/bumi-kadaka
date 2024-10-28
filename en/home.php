@@ -222,13 +222,21 @@
       <!-- END MOBILE -->
     <!-- END SLIDER -->
 
-    <!-- MOBILE BEFORE ABOUT US -->
-    <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
-      <div class="mt-[10px]">
-        <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
+    <!-- DE LIGHT -->
+      <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+        <div class="mt-[20px]">
+          <span class="text-[24px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
+        </div>
       </div>
-    </div>
-    <!-- MOBILE BEFORE ABOUT US -->
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[10px]">
+          <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
+        </div>
+      </div>
+      <!-- END MOBILE -->
+    <!-- END DE LIGHT -->
 
     <!-- ABOUT US -->
     <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
@@ -265,6 +273,25 @@
         </div>
       </div>
     </div>
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[20px]">
+          <img class="w-[412px]" src="./resources/img/mobile/about-us-mobile.png">
+        </div>
+        <div class="h-[92px] text-justify">
+          <div class="float-left ml-[10px] mt-[15px] w-[390px]">
+            <span class="text-[16px] font-bold">About Us</span>
+          </div>
+          <div class="float-left ml-[10px] mt-[5px] w-[390px]">
+            <p class="text-[9px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+          </div>
+          <div class="float-left ml-[10px] w-[390px]">
+            <span class="text-[9px] font-bold">Read More ...</span>
+          </div>
+        </div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END ABOUT US -->
 
     <!-- DOCUMENTARY -->
@@ -291,6 +318,29 @@
           </div>
         </div>
     </div>
+
+      <!-- END MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[40px] h-[160px] bg-[url('./resources/img/mobile/documentary-mobile.png')]">
+          <div class="text-center font-medium non-italic w-auto">
+            <br>
+            <span class="text-white font-[500] min-[412px]:text-[10px]">Our approach harmonizes local uniqueness and natural </span>
+          </div>
+          <div>
+            <span class="text-white font-[500] min-[412px]:text-[10px]"> beauty with technology and sustainable practices. </span>
+          </div>
+          <br>
+          <div align="center">
+            <a href="#">
+              <button align="center" 
+                      class="w-[200px] h-[28px] rounded-[10px] bg-[#F1AE93] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-white text-[12px]">
+                Watch Our Documentary
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- END ABOUT US -->
     <!-- END DOCUMENTARY -->
 
     <!-- MOVING IMAGE -->
@@ -316,13 +366,19 @@
         </div>
       </div>
     </div>
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[40px] h-[180px] bg-[url('./resources/img/mobile/moving-image-mobile.png')]"></div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END MOVING IMAGE -->
 
     <!-- PARTNER -->
     <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
       <div class="mt-[50px]">
         <div class="w-[100%] mt-[750px]">
-          <spam class="font-bold text-[40px]">Our Partner</spam>
+          <span class="font-bold text-[40px]">Our Partner</span>
         </div>
         <div class="mt-[20px]">
           <div class="flex w-full flex-col">
@@ -342,6 +398,24 @@
         </div>
       </div>
     </div>
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="w-[100%] mt-[20px]">
+          <span class="font-bold text-[18px]">Our Partner</span>
+        </div>
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+          <div class="relative h-[50px] overflow-hidden rounded-lg">
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./resources/img/partner/slider-partner-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./resources/img/partner/slider-partner-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END PARTNER -->
     
     <!-- ANNUAL REPORT -->
@@ -378,6 +452,25 @@
         </div>
       </div>
     </div>
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[20px]">
+          <img class="w-[412px]" src="./resources/img/mobile/annual-report-mobile.png">
+        </div>
+        <div class="h-[92px] text-justify">
+          <div class="float-left ml-[10px] mt-[15px] w-[390px]">
+            <span class="text-[16px] font-bold">Annual Report</span>
+          </div>
+          <div class="float-left ml-[10px] mt-[5px] w-[390px]">
+            <p class="text-[9px]">Our purpose  is to provide True Hospitality for Good. It brings our brands to life, shapes our culture and represents a commitment to make a difference to our people, guests and communities, and to protect the world around us. With strong stakeholder engagement, together we work towards common goals that help create shared value for all.</p>
+          </div>
+          <div class="float-left ml-[10px] w-[390px]">
+            <span class="text-[9px] font-bold">Download Annual Report</span>
+          </div>
+        </div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END ANNUAL REPORT -->   
 
     <!-- FEATURED -->
@@ -453,6 +546,53 @@
         </div>
       </div>
     </div> 
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:mt-[50px]">
+        <div class="bg-[#EFAE93] h-[230px]">
+          <span class="float-left mt-[10px] ml-[10px] text-white">Featured</span>
+
+          <div class="float-left w-[412px] overflow-y-auto ml-[10px] h-[180px]">
+            <div class="w-[126%] text-left mt-[20px]">
+              <div class="w-[140px] h-[90px]">
+                <img src="./resources/img/home/feature-1.png" alt="">
+
+                <div class="mt-[10px] text-white text-[12px]">
+                  The Lounge
+                </div>
+                <div class="text-white text-[9px] font-normal text-justify
+                          lg:text-[14px] lg:mt-[10px]">
+                  Savour indonesian and western cuisine at our all day dining restaurant. Located on 1st Floor Forest Hills Hotel Ciwidey, surrounded by lush
+                </div>
+              </div>
+
+              <div class="w-[140px] h-[90px] ml-[170px] mt-[-90px]">
+                <img src="./resources/img/home/feature-1.png" alt="">
+
+                <div class="mt-[10px] text-white text-[12px]">
+                  The Lounge
+                </div>
+                <div class="text-white text-[9px] font-normal text-justify">
+                  Savour indonesian and western cuisine at our all day dining restaurant. Located on 1st Floor Forest Hills Hotel Ciwidey, surrounded by lush
+                </div>
+              </div>
+
+              <div class="w-[140px] h-[90px] ml-[340px] mt-[-90px]">
+                <img src="./resources/img/home/feature-1.png">
+
+                <div class="mt-[10px] text-white text-[12px]">
+                  The Lounge
+                </div>
+                <div class="text-white text-[9px] font-normal text-justify">
+                  Savour indonesian and western cuisine at our all day dining restaurant. Located on 1st Floor Forest Hills Hotel Ciwidey, surrounded by lush
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END FEATURED -->
 
     <!-- FOOTER -->
@@ -518,6 +658,34 @@
           </div>
       </div>
     </div>
+
+      <!-- MOBILE -->
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[20px]">
+          <div class="float-left ml-[20px] mb-[50px] w-[412px]">
+          <img class="h-8 w-[211px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
+          <div class="w-[369px] text-justify mt-[20px] text-[#2F2E2E] text-[14px]">
+            PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices. 
+          </div>
+        </div>
+        </div>
+      </div>
+
+       <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+        <div class="mt-[20px]">
+          <div class="bg-[#307060] h-[39px] text-left mt-[190px]">
+            <div class="float-left ml-[20px] mt-[-20px] w-[412px]">
+              <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
+            </div>
+            <div class="float-left ml-[220px] mt-[-25px] w-[412px]">
+              <span class="text-white text-[8px]">Accessibility</span>
+              <span class="text-white text-[8px] ml-[15px]">Legal</span>
+              <span class="text-white text-[8px] ml-[15px]">Privacy Statement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MOBILE -->
     <!-- END FOOTER -->
 
 
