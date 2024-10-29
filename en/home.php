@@ -19,7 +19,7 @@
    <header class="absolute inset-x-0 top-0 z-50 h-[28px] bg-[#307060] fixed
                   lg:w-[100%] lg:h-[auto]
                   xl:w-[100%] xl:h-[auto]
-                  min-[412px]:w-[412px]"
+                  min-[412px]:w-[100%]"
                   style="position: fixed;">
     <div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px]">
       IN | EN
@@ -31,7 +31,7 @@
   <header class="absolute inset-x-0 top-7 z-50 shadow-[0px_1px_4px_rgba(0,0,0,0.25)] bg-white
                 lg:w-[100%] lg:h-[auto] lg:mt-[-6px]
                 xl:w-[100%] xl:h-[auto] xl:mt-[-6px]
-                min-[412px]:w-[412px]" 
+                min-[412px]:w-[100%]" 
                 style="position: fixed;">
     
     <!-- WEB -->
@@ -206,7 +206,7 @@
       </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[117px]">
           <img class="w-[412px]" src="./resources/img/mobile/slide-mobile.png">
         </div>
@@ -230,7 +230,7 @@
       </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[10px]">
           <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
@@ -275,7 +275,7 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[20px]">
           <img class="w-[412px]" src="./resources/img/mobile/about-us-mobile.png">
         </div>
@@ -320,7 +320,7 @@
     </div>
 
       <!-- END MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[40px] h-[160px] bg-[url('./resources/img/mobile/documentary-mobile.png')]">
           <div class="text-center font-medium non-italic w-auto">
             <br>
@@ -368,7 +368,7 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[40px] h-[180px] bg-[url('./resources/img/mobile/moving-image-mobile.png')]"></div>
       </div>
       <!-- END MOBILE -->
@@ -400,7 +400,7 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="w-[100%] mt-[20px]">
           <span class="font-bold text-[18px]">Our Partner</span>
         </div>
@@ -454,7 +454,7 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[20px]">
           <img class="w-[412px]" src="./resources/img/mobile/annual-report-mobile.png">
         </div>
@@ -548,7 +548,7 @@
     </div> 
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:mt-[50px]">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:mt-[50px] min-[412px]:ml-[10px]">
         <div class="bg-[#EFAE93] h-[230px]">
           <span class="float-left mt-[10px] ml-[10px] text-white">Featured</span>
 
@@ -644,10 +644,10 @@
       <div class="bg-[#307060] h-[50px] text-left 
                   lg:w-[100%] lg:mt-[270px]
                   xl:w-[100%] xl:mt-[270px]">
-          <div class="float-left ml-[50px] mt-[15px] w-[430px]">
+          <div class="float-left ml-[50px] mt-[15px]">
             <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
           </div>
-          <div class="float-left ml-[50px] mt-[15px] w-[430px] 
+          <div class="float-left ml-[50px] mt-[15px]
                       lg:ml-[145px] lg:w-[375px]
                       xl:ml-[425px]">
             <span class="text-white text-[14px]">Accessibility</span>
@@ -660,7 +660,7 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[20px]">
           <div class="float-left ml-[20px] mb-[50px] w-[412px]">
           <img class="h-8 w-[211px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
@@ -671,16 +671,16 @@
         </div>
       </div>
 
-       <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block">
+       <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
         <div class="mt-[20px]">
           <div class="bg-[#307060] h-[39px] text-left mt-[190px]">
-            <div class="float-left ml-[20px] mt-[-20px] w-[412px]">
+            <div class="float-left ml-[20px] mt-[-20px] w-[212px]">
               <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
             </div>
-            <div class="float-left ml-[220px] mt-[-25px] w-[412px]">
+            <div class="float-left ml-[220px] mt-[-25px] w-[180px]">
               <span class="text-white text-[8px]">Accessibility</span>
-              <span class="text-white text-[8px] ml-[15px]">Legal</span>
-              <span class="text-white text-[8px] ml-[15px]">Privacy Statement</span>
+              <span class="text-white text-[8px] ml-[10px]">Legal</span>
+              <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
             </div>
           </div>
         </div>

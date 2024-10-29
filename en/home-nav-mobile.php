@@ -1,5 +1,5 @@
 <nav x-data="{ open: false }" 
-     class="lg:hidden min-[412px]:w-[412px]">
+     class="lg:hidden min-[412px]:w-[100%]">
   <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <img class="h-8 w-[232px] h-[40.117px]
