@@ -1,20 +1,22 @@
 <nav x-data="{ open: false }" 
      class="lg:hidden 
-            min-[412px]:w-[100%]
-            min-[390px]:w-[100%]">
+            min-[412px]:w-[100%] min-[412px]:h-[65px]
+            min-[390px]:w-[100%] min-[390px]:h-[65px]">
   <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <img class="h-8 w-[232px] h-[40.117px]
-                  min-[412px]:w-[140px]
-                  min-[390px]:w-[140px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
+                  min-[412px]:w-[140px] min-[412px]:mt-[-10px]
+                  min-[390px]:w-[140px] min-[390px]:mt-[-10px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
     </div>
 
     <button class="lg:hidden text-[#EFAE93] hover:text-[#307060] rounded-md transition duration-150 ease-in-out mr-1" aria-label="Main menu" aria-expanded="false">
         <svg @click="open = true" 
-        class="block h-6 w-6" 
-        fill="none" 
-        viewBox="0 0 24 24" 
-        stroke="currentColor">
+             class="block h-6 w-6
+                    min-[412px]:mt-[-10px] min-[412px]:w-[20px]
+                    min-[390px]:mt-[-10px] min-[390px]:w-[20px]" 
+             fill="none" 
+             viewBox="0 0 24 24" 
+             stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
     </button>
