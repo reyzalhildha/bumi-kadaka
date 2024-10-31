@@ -16,12 +16,13 @@
 <body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center">
 
   <!-- TOP -->
-   <header class="absolute inset-x-0 top-0 z-50 h-[28px] bg-[#307060] fixed
-                  lg:w-[100%] lg:h-[auto]
-                  xl:w-[100%] xl:h-[auto]
-                  min-[412px]:w-[100%]"
-                  style="position: fixed;">
-    <div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px]">
+   <header class="absolute inset-x-0 top-0 z-50 h-[28px] bg-[#307060]
+                  lg:w-[100%] lg:h-[auto] lg:fixed
+                  xl:w-[100%] xl:h-[auto] xl:fixed
+                  min-[412px]:w-[100%] min-[412px]:block
+                  min-[390px]:w-[100%] min-[390px]:block">
+    <div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px] 
+                min-[390px]:mt-[3px]">
       IN | EN
     </div>
   </header>
@@ -29,15 +30,16 @@
 
   <!-- NAV BAR -->
   <header class="absolute inset-x-0 top-7 z-50 shadow-[0px_1px_4px_rgba(0,0,0,0.25)] bg-white
-                lg:w-[100%] lg:h-[auto] lg:mt-[-6px]
-                xl:w-[100%] xl:h-[auto] xl:mt-[-6px]
-                min-[412px]:w-[100%]" 
-                style="position: fixed;">
+                lg:w-[100%] lg:h-[auto] lg:mt-[-6px] lg:fixed
+                xl:w-[100%] xl:h-[auto] xl:mt-[-6px] xl:fixed
+                min-[412px]:w-[100%] min-[412px]:block
+                min-[390px]:w-[100%] min-[390px]:block">
     
     <!-- WEB -->
-    <nav class="max-[960px]:hidden flex items-center justify-between p-6 
-                lg:px-8" 
-                aria-label="Global">
+    <nav aria-label="Global" 
+         class="flex items-center justify-between p-6 
+                max-[960px]:hidden
+                lg:px-8" >
       <div class="flex lg:flex-1">
         <img class="h-8 w-[232px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
       </div>
@@ -103,40 +105,41 @@
         <li class="p-4 
                     lg:px-8
                     relative flex items-center space-x-1"
-          x-data="{ open: false }"
-          @mouseenter="open = true"
-          @mouseleave="open = false" style="margin-right: -20px;">
+                    x-data="{ open: false }"
+                    @mouseenter="open = true"
+                    @mouseleave="open = false" style="margin-right: -20px;">
+
             <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px]"
                 href="#0"
                 :aria-expanded="open">Our Brands</a>
 
                 <button class="shrink-0 p-1"
                         :aria-expanded="open"
-                        @click.prevent="open = !open"
-                        >
-            </button>
-              <ul style="margin-left: 75px;"
-                class="origin-top-right absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white border border-slate-200 p-2 rounded-lg shadow-xl mt-[25px] [&[x-cloak]]:hidden"
-                x-show="open"
-                x-transition:enter="transition ease-out duration-200 transform"
-                x-transition:enter-start="opacity-0 -translate-y-2"
-                x-transition:enter-end="opacity-100 translate-y-0"
-                x-transition:leave="transition ease-out duration-200"
-                x-transition:leave-start="opacity-100"
-                x-transition:leave-end="opacity-0"
-                x-cloak
-                @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
-                <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
-                        <span class="whitespace-nowrap">Hotels</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
-                        <span class="whitespace-nowrap">Restaurant</span>
-                    </a>
-                </li>
-            </ul>
+                        @click.prevent="open = !open">
+                </button>
+              
+                <ul style="margin-left: 75px;"
+                    class="origin-top-right absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white border border-slate-200 p-2 rounded-lg shadow-xl mt-[25px] [&[x-cloak]]:hidden"
+                    x-show="open"
+                    x-transition:enter="transition ease-out duration-200 transform"
+                    x-transition:enter-start="opacity-0 -translate-y-2"
+                    x-transition:enter-end="opacity-100 translate-y-0"
+                    x-transition:leave="transition ease-out duration-200"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    x-cloak
+                    @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
+                    <li>
+                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                            <span class="whitespace-nowrap">Hotels</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                            <span class="whitespace-nowrap">Restaurant</span>
+                        </a>
+                    </li>
+                </ul>
         </li>
         <li class="p-4 
                     lg:px-8">
@@ -157,19 +160,24 @@
   </header>
   <!-- END NAV BAR -->
 
-  <div class="w-[1440px]
-  lg:w-[1000px] lg:ml-[0px]
-  xl:w-[1280px]
-  min-[412px]:w-[412px]"
-  style="margin: auto;">
+  <div style="margin: auto;" 
+       class="w-[1440px]
+              lg:w-[1000px] lg:ml-[0px]
+              xl:w-[1280px]
+              min-[412px]:w-[412px]
+              min-[390px]:w-[390px]">
     
     <!-- SLIDER -->
-      <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+      <div class="flex w-full flex-col 
+                  lg:block 
+                  xl:block 
+                  min-[412px]:hidden 
+                  min-[390px]:hidden">
         <div class="lg:mt-[130px]">
-          <div id="default-carousel" 
-               class="relative w-full
-                      xl:mt-[-33px]" 
-               data-carousel="slide">
+          <div  id="default-carousel" 
+                data-carousel="slide"
+                class="relative w-full
+                        xl:mt-[-33px]" >
               <div class="relative h-56 overflow-hidden rounded-lg 
                           xl:h-[598px]
                           lg:h-[340px]">
@@ -206,16 +214,29 @@
       </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="mt-[117px]">
-          <img class="w-[412px]" src="./resources/img/mobile/slide-mobile.png">
+          <img src="./resources/img/mobile/slide-mobile.png" 
+               class="min-[412px]:w-[412px]
+                      min-[390px]:w-[390px]">
+                      
         </div>
-        <div class="bg-[#F1AE93] h-[92px] text-justify">
-          <div class="float-left ml-[10px] mt-[10px] w-[390px]">
+        <div class="bg-[#F1AE93] h-[92px] text-justify
+                    min-[412px]:w-[412px]
+                    min-[390px]:w-[390px]">
+          <div class="float-left ml-[10px] mt-[10px]">
             <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
           </div>
-          <div class="float-left ml-[10px] w-[390px]">
-            <p class="text-white text-[9px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+          <div class="float-left ml-[10px] 
+                      min-[412px]:w-[392px]
+                      min-[390px]:w-[370px]">
+            <p class="text-white text-[9px] 
+                      min-[412px]:w-[392px]
+                      min-[390px]:w-[370px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
           </div>
         </div>
       </div>
@@ -223,14 +244,22 @@
     <!-- END SLIDER -->
 
     <!-- DE LIGHT -->
-      <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+      <div class="flex w-full flex-col 
+                  lg:block 
+                  xl:block 
+                  min-[412px]:hidden 
+                  min-[390px]:hidden">
         <div class="mt-[20px]">
           <span class="text-[24px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block min-[412px]:ml-[10px] min-[412px]:w-[392px]
+                  min-[390px]:block min-[390px]:ml-[10px] min-[390px]:w-[370px]">
         <div class="mt-[10px]">
           <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
@@ -239,7 +268,11 @@
     <!-- END DE LIGHT -->
 
     <!-- ABOUT US -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
       <div class="mt-[50px]">
         <div class="items-center">
           <div class="float-left ml-[50px;]">
@@ -275,18 +308,29 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="mt-[20px]">
-          <img class="w-[412px]" src="./resources/img/mobile/about-us-mobile.png">
+          <img src="./resources/img/mobile/about-us-mobile.png" 
+               class="min-[412px]:w-[412px]
+                      min-[390px]:w-[390px]">
         </div>
         <div class="h-[92px] text-justify">
-          <div class="float-left ml-[10px] mt-[15px] w-[390px]">
+          <div class="float-left ml-[10px] mt-[15px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <span class="text-[16px] font-bold">About Us</span>
           </div>
-          <div class="float-left ml-[10px] mt-[5px] w-[390px]">
+          <div class="float-left ml-[10px] mt-[5px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <p class="text-[9px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
           </div>
-          <div class="float-left ml-[10px] w-[390px]">
+          <div class="float-left ml-[10px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <span class="text-[9px] font-bold">Read More ...</span>
           </div>
         </div>
@@ -295,8 +339,14 @@
     <!-- END ABOUT US -->
 
     <!-- DOCUMENTARY -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
-        <div class="mt-[680px] h-[245px] bg-[url('./resources/img/bg/documentary.png')] lg:h-[185px] xl:h-[200px]">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
+        <div class="mt-[680px] h-[245px] bg-[url('./resources/img/bg/documentary.png')] 
+                    lg:h-[185px] 
+                    xl:h-[200px]">
           <div class="text-center font-medium non-italic w-auto
                     lg:text-[14px]
                     xl:text-[20px]">
@@ -320,14 +370,22 @@
     </div>
 
       <!-- END MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="mt-[40px] h-[160px] bg-[url('./resources/img/mobile/documentary-mobile.png')]">
           <div class="text-center font-medium non-italic w-auto">
             <br>
-            <span class="text-white font-[500] min-[412px]:text-[10px]">Our approach harmonizes local uniqueness and natural </span>
+            <span class=" text-white font-[500] 
+                          min-[412px]:text-[10px]
+                          min-[390px]:text-[10px]">Our approach harmonizes local uniqueness and natural </span>
           </div>
           <div>
-            <span class="text-white font-[500] min-[412px]:text-[10px]"> beauty with technology and sustainable practices. </span>
+            <span class=" text-white font-[500] 
+                          min-[412px]:text-[10px]
+                          min-[390px]:text-[10px]"> beauty with technology and sustainable practices. </span>
           </div>
           <br>
           <div align="center">
@@ -344,7 +402,7 @@
     <!-- END DOCUMENTARY -->
 
     <!-- MOVING IMAGE -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden min-[390px]:hidden">
       <div class="mt-[90px]">
         <div class="w-[719px] h-[599px] float-left 
                     lg:w-[500px] 
@@ -368,14 +426,22 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="mt-[40px] h-[180px] bg-[url('./resources/img/mobile/moving-image-mobile.png')]"></div>
       </div>
       <!-- END MOBILE -->
     <!-- END MOVING IMAGE -->
 
     <!-- PARTNER -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
       <div class="mt-[50px]">
         <div class="w-[100%] mt-[750px]">
           <span class="font-bold text-[40px]">Our Partner</span>
@@ -400,7 +466,11 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="w-[100%] mt-[20px]">
           <span class="font-bold text-[18px]">Our Partner</span>
         </div>
@@ -419,7 +489,11 @@
     <!-- END PARTNER -->
     
     <!-- ANNUAL REPORT -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
       <div class="mt-[80px]">
         <div class="items-center">
           <div class="float-left pl-[50px] mt-[60px] w-[40%] 
@@ -454,18 +528,30 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block 
+                  min-[390px]:block">
         <div class="mt-[20px]">
-          <img class="w-[412px]" src="./resources/img/mobile/annual-report-mobile.png">
+          <img src="./resources/img/mobile/annual-report-mobile.png" 
+               class="min-[412px]:w-[412px]
+                      min-[390px]:w-[390px]">
         </div>
         <div class="h-[92px] text-justify">
-          <div class="float-left ml-[10px] mt-[15px] w-[390px]">
+          <div class="float-left ml-[10px] mt-[15px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <span class="text-[16px] font-bold">Annual Report</span>
           </div>
-          <div class="float-left ml-[10px] mt-[5px] w-[390px]">
+          <div class="float-left ml-[10px] mt-[5px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <p class="text-[9px]">Our purpose  is to provide True Hospitality for Good. It brings our brands to life, shapes our culture and represents a commitment to make a difference to our people, guests and communities, and to protect the world around us. With strong stakeholder engagement, together we work towards common goals that help create shared value for all.</p>
           </div>
-          <div class="float-left ml-[10px] w-[390px]">
+          <div class="float-left ml-[10px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <span class="text-[9px] font-bold">Download Annual Report</span>
           </div>
         </div>
@@ -474,9 +560,15 @@
     <!-- END ANNUAL REPORT -->   
 
     <!-- FEATURED -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
       <div class="mt-[650px]">
-        <div class="mt-[90px] bg-[#EFAE93] lg:w-[100%] xl:w-[100%]">
+        <div class="mt-[90px] bg-[#EFAE93] 
+                    lg:w-[100%] 
+                    xl:w-[100%]">
           <div class="m-[50px] h-[430px]">
             
             <div class="float-left">
@@ -548,11 +640,17 @@
     </div> 
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:mt-[50px] min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block min-[412px]:mt-[50px]
+                  min-[390px]:block min-[390px]:mt-[50px]">
         <div class="bg-[#EFAE93] h-[230px]">
           <span class="float-left mt-[10px] ml-[10px] text-white">Featured</span>
 
-          <div class="float-left w-[412px] overflow-y-auto ml-[10px] h-[180px]">
+          <div class="float-left overflow-y-auto ml-[10px] h-[180px]
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
             <div class="w-[126%] text-left mt-[20px]">
               <div class="w-[140px] h-[90px]">
                 <img src="./resources/img/home/feature-1.png" alt="">
@@ -596,7 +694,11 @@
     <!-- END FEATURED -->
 
     <!-- FOOTER -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden">
       <div class="mt-[50px]">
         <div class="float-left ml-[50px] mb-[50px] w-[430px]">
           <img class="h-8 w-[232px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
@@ -640,7 +742,7 @@
       </div>
     </div>
 
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden">
+    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden min-[390px]:hidden">
       <div class="bg-[#307060] h-[50px] text-left 
                   lg:w-[100%] lg:mt-[270px]
                   xl:w-[100%] xl:mt-[270px]">
@@ -660,24 +762,40 @@
     </div>
 
       <!-- MOBILE -->
-      <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+      <div class="flex w-full flex-col 
+                  lg:hidden 
+                  xl:hidden 
+                  min-[412px]:block
+                  min-[390px]:block">
         <div class="mt-[20px]">
-          <div class="float-left ml-[20px] mb-[50px] w-[412px]">
-          <img class="h-8 w-[211px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
-          <div class="w-[369px] text-justify mt-[20px] text-[#2F2E2E] text-[14px]">
-            PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices. 
+          <div class="float-left ml-[20px] mb-[50px] 
+                      min-[412px]:w-[390px]
+                      min-[390px]:w-[370px]">
+            <img class="h-8 w-[211px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
+            <div class="text-justify mt-[20px] text-[#2F2E2E] text-[14px]
+                        min-[412px]:w-[372px]
+                        min-[390px]:w-[350px]">
+              PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices. 
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
-       <div class="flex w-full flex-col lg:hidden xl:hidden min-[412px]:block min-[412px]:ml-[10px]">
+       <div class="flex w-full flex-col 
+                    lg:hidden 
+                    xl:hidden 
+                    min-[412px]:block
+                    min-[390px]:block">
         <div class="mt-[20px]">
           <div class="bg-[#307060] h-[39px] text-left mt-[190px]">
-            <div class="float-left ml-[20px] mt-[-20px] w-[212px]">
+            <div class="float-left ml-[20px] mt-[-20px]
+                        min-[412px]:w-[212px]
+                        min-[390px]:w-[112px]">
               <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
             </div>
-            <div class="float-left ml-[220px] mt-[-25px] w-[180px]">
+            <div class="float-left mt-[-25px] 
+                        min-[412px]:w-[192px] min-[412px]:ml-[220px]
+                        min-[390px]:w-[185px] min-[390px]:ml-[198px]">
               <span class="text-white text-[8px]">Accessibility</span>
               <span class="text-white text-[8px] ml-[10px]">Legal</span>
               <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
