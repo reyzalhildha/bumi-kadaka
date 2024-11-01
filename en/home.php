@@ -20,9 +20,11 @@
                   lg:w-[100%] lg:h-[auto] lg:fixed
                   xl:w-[100%] xl:h-[auto] xl:fixed
                   min-[412px]:w-[100%] min-[412px]:block
-                  min-[390px]:w-[100%] min-[390px]:block">
+                  min-[390px]:w-[100%] min-[390px]:block
+                  min-[320px]:w-[100%] min-[320px]:block">
     <div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px] 
-                min-[390px]:mt-[3px]">
+                min-[390px]:mt-[3px]
+                min-[320px]:mt-[3px]">
       IN | EN
     </div>
   </header>
@@ -33,7 +35,8 @@
                 lg:w-[100%] lg:h-[auto] lg:mt-[-6px] lg:fixed
                 xl:w-[100%] xl:h-[auto] xl:mt-[-6px] xl:fixed
                 min-[412px]:w-[100%] min-[412px]:block
-                min-[390px]:w-[100%] min-[390px]:block">
+                min-[390px]:w-[100%] min-[390px]:block
+                min-[320px]:w-[100%] min-[320px]:block">
     
     <!-- WEB -->
     <nav aria-label="Global" 
@@ -165,14 +168,16 @@
               lg:w-[1000px] lg:ml-[0px]
               xl:w-[1280px]
               min-[412px]:w-[412px]
-              min-[390px]:w-[390px]">
+              min-[390px]:w-[390px]
+              min-[320px]:w-[320px]">
     
     <!-- SLIDER -->
       <div class="flex w-full flex-col 
                   lg:block 
                   xl:block 
                   min-[412px]:hidden 
-                  min-[390px]:hidden">
+                  min-[390px]:hidden
+                  min-[320px]:hidden">
         <div class="lg:mt-[130px]">
           <div  id="default-carousel" 
                 data-carousel="slide"
@@ -218,25 +223,30 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[117px]">
           <img src="./resources/img/mobile/slide-mobile.png" 
                class="min-[412px]:w-[412px]
-                      min-[390px]:w-[390px]">
+                      min-[390px]:w-[390px]
+                      min-[320px]:w-[320px]">
                       
         </div>
         <div class="bg-[#F1AE93] h-[92px] text-justify
                     min-[412px]:w-[412px]
-                    min-[390px]:w-[390px]">
+                    min-[390px]:w-[390px]
+                    min-[320px]:w-[320px]">
           <div class="float-left ml-[10px] mt-[10px]">
             <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
           </div>
           <div class="float-left ml-[10px] 
                       min-[412px]:w-[392px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <p class="text-white text-[9px] 
                       min-[412px]:w-[392px]
-                      min-[390px]:w-[370px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
           </div>
         </div>
       </div>
@@ -248,7 +258,8 @@
                   lg:block 
                   xl:block 
                   min-[412px]:hidden 
-                  min-[390px]:hidden">
+                  min-[390px]:hidden
+                  min-[320px]:hidden">
         <div class="mt-[20px]">
           <span class="text-[24px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
@@ -259,7 +270,8 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block min-[412px]:ml-[10px] min-[412px]:w-[392px]
-                  min-[390px]:block min-[390px]:ml-[10px] min-[390px]:w-[370px]">
+                  min-[390px]:block min-[390px]:ml-[10px] min-[390px]:w-[370px]
+                  min-[320px]:block min-[320px]:ml-[10px] min-[320px]:w-[300px]">
         <div class="mt-[10px]">
           <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
@@ -272,16 +284,17 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="mt-[50px]">
         <div class="items-center">
-          <div class="float-left ml-[50px;]">
+          <div class="ml-[50px] flex">
             <img class="w-[735px] h-[571px] 
                         lg:w-[500px] lg:h-[auto]
                         xl:w-[650px] xl:h-[auto]" 
                         src="./resources/img/home/about-us-home.png" alt="">
-          </div>
-          <div class="float-left pl-[50px] mt-[60px] w-[40%] lg:mt-[0px;]">
+
+            <div class="pl-[50px] mt-[60px] w-[40%] lg:mt-[0px;]">
             <div class="text-left 
                         lg:mt-[30px]
                         xl:mt-[70px]">
@@ -303,6 +316,7 @@
               <a href="">Read More . . .</a>
             </div>
           </div>
+          </div>
         </div>
       </div>
     </div>
@@ -311,26 +325,31 @@
       <div class="flex w-full flex-col 
                   lg:hidden xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[20px]">
           <img src="./resources/img/mobile/about-us-mobile.png" 
                class="min-[412px]:w-[412px]
-                      min-[390px]:w-[390px]">
+                      min-[390px]:w-[390px]
+                      min-[320px]:w-[320px]">
         </div>
         <div class="h-[92px] text-justify">
           <div class="float-left ml-[10px] mt-[15px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <span class="text-[16px] font-bold">About Us</span>
           </div>
           <div class="float-left ml-[10px] mt-[5px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <p class="text-[9px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
           </div>
           <div class="float-left ml-[10px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <span class="text-[9px] font-bold">Read More ...</span>
           </div>
         </div>
@@ -343,9 +362,10 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
-        <div class="mt-[680px] h-[245px] bg-[url('./resources/img/bg/documentary.png')] 
-                    lg:h-[185px] 
+                min-[390px]:hidden
+                min-[320px]:hidden">
+        <div class="mt-[80px] h-[245px] bg-[url('./resources/img/bg/documentary.png')] 
+                    lg:h-[185px]
                     xl:h-[200px]">
           <div class="text-center font-medium non-italic w-auto
                     lg:text-[14px]
@@ -374,18 +394,23 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[40px] h-[160px] bg-[url('./resources/img/mobile/documentary-mobile.png')]">
           <div class="text-center font-medium non-italic w-auto">
             <br>
             <span class=" text-white font-[500] 
                           min-[412px]:text-[10px]
-                          min-[390px]:text-[10px]">Our approach harmonizes local uniqueness and natural </span>
+                          min-[390px]:text-[10px]
+                          min-[320px]:text-[10px]">
+                        Our approach harmonizes local uniqueness and natural </span>
           </div>
           <div>
             <span class=" text-white font-[500] 
                           min-[412px]:text-[10px]
-                          min-[390px]:text-[10px]"> beauty with technology and sustainable practices. </span>
+                          min-[390px]:text-[10px]
+                          min-[320px]:text-[10px]"> 
+                        beauty with technology and sustainable practices. </span>
           </div>
           <br>
           <div align="center">
@@ -402,7 +427,12 @@
     <!-- END DOCUMENTARY -->
 
     <!-- MOVING IMAGE -->
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden min-[390px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="mt-[90px]">
         <div class="w-[719px] h-[599px] float-left 
                     lg:w-[500px] 
@@ -430,7 +460,8 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[40px] h-[180px] bg-[url('./resources/img/mobile/moving-image-mobile.png')]"></div>
       </div>
       <!-- END MOBILE -->
@@ -441,7 +472,8 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="mt-[50px]">
         <div class="w-[100%] mt-[750px]">
           <span class="font-bold text-[40px]">Our Partner</span>
@@ -470,7 +502,8 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="w-[100%] mt-[20px]">
           <span class="font-bold text-[18px]">Our Partner</span>
         </div>
@@ -493,7 +526,8 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="mt-[80px]">
         <div class="items-center">
           <div class="float-left pl-[50px] mt-[60px] w-[40%] 
@@ -532,26 +566,31 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block 
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[20px]">
           <img src="./resources/img/mobile/annual-report-mobile.png" 
                class="min-[412px]:w-[412px]
-                      min-[390px]:w-[390px]">
+                      min-[390px]:w-[390px]
+                      min-[320px]:w-[320px]">
         </div>
         <div class="h-[92px] text-justify">
           <div class="float-left ml-[10px] mt-[15px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <span class="text-[16px] font-bold">Annual Report</span>
           </div>
           <div class="float-left ml-[10px] mt-[5px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <p class="text-[9px]">Our purpose  is to provide True Hospitality for Good. It brings our brands to life, shapes our culture and represents a commitment to make a difference to our people, guests and communities, and to protect the world around us. With strong stakeholder engagement, together we work towards common goals that help create shared value for all.</p>
           </div>
           <div class="float-left ml-[10px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <span class="text-[9px] font-bold">Download Annual Report</span>
           </div>
         </div>
@@ -564,8 +603,10 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
-      <div class="mt-[650px]">
+                min-[390px]:hidden
+                min-[320px]:hidden">
+      <div class="mt-[650px]
+                  lg:mt-[500px]">
         <div class="mt-[90px] bg-[#EFAE93] 
                     lg:w-[100%] 
                     xl:w-[100%]">
@@ -644,13 +685,15 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block min-[412px]:mt-[50px]
-                  min-[390px]:block min-[390px]:mt-[50px]">
+                  min-[390px]:block min-[390px]:mt-[50px]
+                  min-[320px]:block min-[320px]:mt-[80px]">
         <div class="bg-[#EFAE93] h-[230px]">
           <span class="float-left mt-[10px] ml-[10px] text-white">Featured</span>
 
           <div class="float-left overflow-y-auto ml-[10px] h-[180px]
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
             <div class="w-[126%] text-left mt-[20px]">
               <div class="w-[140px] h-[90px]">
                 <img src="./resources/img/home/feature-1.png" alt="">
@@ -698,7 +741,8 @@
                 lg:block 
                 xl:block 
                 min-[412px]:hidden 
-                min-[390px]:hidden">
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="mt-[50px]">
         <div class="float-left ml-[50px] mb-[50px] w-[430px]">
           <img class="h-8 w-[232px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
@@ -742,7 +786,12 @@
       </div>
     </div>
 
-    <div class="flex w-full flex-col lg:block xl:block min-[412px]:hidden min-[390px]:hidden">
+    <div class="flex w-full flex-col 
+                lg:block 
+                xl:block 
+                min-[412px]:hidden 
+                min-[390px]:hidden
+                min-[320px]:hidden">
       <div class="bg-[#307060] h-[50px] text-left 
                   lg:w-[100%] lg:mt-[270px]
                   xl:w-[100%] xl:mt-[270px]">
@@ -750,8 +799,8 @@
             <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
           </div>
           <div class="float-left ml-[50px] mt-[15px]
-                      lg:ml-[145px] lg:w-[375px]
-                      xl:ml-[425px]">
+                      lg:ml-[400px] lg:w-[375px]
+                      xl:ml-[665px]">
             <span class="text-white text-[14px]">Accessibility</span>
             <span class="text-white text-[14px] ml-[65px]
                          lg:ml-[50px]">Legal</span>
@@ -766,15 +815,22 @@
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
-                  min-[390px]:block">
+                  min-[390px]:block
+                  min-[320px]:block">
         <div class="mt-[20px]">
           <div class="float-left ml-[20px] mb-[50px] 
                       min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]">
-            <img class="h-8 w-[211px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
-            <div class="text-justify mt-[20px] text-[#2F2E2E] text-[14px]
-                        min-[412px]:w-[372px]
-                        min-[390px]:w-[350px]">
+                      min-[390px]:w-[370px]
+                      min-[320px]:w-[300px]">
+            <img src="./resources/img/logo/logo-bumi-kadaka.svg" alt=""
+                 class="min-[412px]:h-8 min-[412px]:w-[211px] min-[412px]:h-[40.117px]
+                        min-[390px]:h-8 min-[390px]:w-[161px] min-[412px]:h-[20.117px]
+                        min-[320px]:h-8 min-[320px]:w-[121px] min-[412px]:h-[15.117px]">
+            <div class="text-justify text-[#2F2E2E] text-[14px]
+                        min-[905px]:text-[10px]
+                        min-[412px]:w-[372px] min-[412px]:mt-[20px] min-[320px]:text-[10px]
+                        min-[390px]:w-[350px] min-[412px]:mt-[16px] min-[320px]:text-[10px]
+                        min-[320px]:w-[280px] min-[320px]:mt-[14px] min-[320px]:text-[10px]">
               PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices. 
             </div>
           </div>
@@ -785,17 +841,20 @@
                     lg:hidden 
                     xl:hidden 
                     min-[412px]:block
-                    min-[390px]:block">
+                    min-[390px]:block
+                    min-[320px]:block">
         <div class="mt-[20px]">
-          <div class="bg-[#307060] h-[39px] text-left mt-[190px]">
-            <div class="float-left ml-[20px] mt-[-20px]
+          <div class="bg-[#307060] h-[39px] text-left mt-[160px]">
+            <div class="float-left ml-[20px] mt-[-10px]
                         min-[412px]:w-[212px]
-                        min-[390px]:w-[112px]">
+                        min-[390px]:w-[112px]
+                        min-[320px]:w-[100px]">
               <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
             </div>
             <div class="float-left mt-[-25px] 
                         min-[412px]:w-[192px] min-[412px]:ml-[220px]
-                        min-[390px]:w-[185px] min-[390px]:ml-[198px]">
+                        min-[390px]:w-[185px] min-[390px]:ml-[198px]
+                        min-[320px]:hidden">
               <span class="text-white text-[8px]">Accessibility</span>
               <span class="text-white text-[8px] ml-[10px]">Legal</span>
               <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
