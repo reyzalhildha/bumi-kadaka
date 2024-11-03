@@ -40,7 +40,7 @@
     <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
       <div class="rounded-[10px] bg-[#F1AE93] h-[39px]">
         <div class="mt-[5px] pl-[10px] pt-[6px] text-left">
-          <a href="#" class="text-white mt-[5px] text-[16px]">Home</a>  
+          <a href="" class="text-white mt-[5px] text-[16px]">Home</a>  
         </div>
       </div>
     </div>

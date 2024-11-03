@@ -50,7 +50,7 @@
       <ul class="flex flex-wrap items-center font-medium text-sm">
         <li class="p-4 
                     lg:px-8">
-          <a class="text-slate-800 hover:text-slate-900 font-bold text-[15px]" href="#">Home</a>
+          <a class="text-slate-800 hover:text-slate-900 font-bold text-[15px]" href="">Home</a>
         </li>
         <li class="p-4 
                     lg:px-8
@@ -743,8 +743,8 @@
                 min-[412px]:hidden 
                 min-[390px]:hidden
                 min-[320px]:hidden">
-      <div class="mt-[50px]">
-        <div class="float-left ml-[50px] mb-[50px] w-[430px]">
+      <div class="flex mt-[50px]">
+        <div class="ml-[50px] mb-[50px] w-[430px]">
           <img class="h-8 w-[232px] h-[40.117px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
           <div class="w-[369px] text-justify mt-[20px] text-[#2F2E2E] text-[17px]
                       lg:text-[14px]">
@@ -752,10 +752,10 @@
           </div>
         </div>
 
-        <div class="float-left ml-[495px] mb-[50px] w-[430px] 
+        <div class="flex ml-[495px] mb-[50px] w-[430px] 
                     lg:ml-[240px] lg:w-[280px]
                     xl:ml-[448px]">
-          <div class="float-left w-[215px] text-left
+          <div class="w-[215px] text-left
                       lg:w-[130px]">
             Site Map
 
@@ -769,7 +769,7 @@
             </div>
           </div>
 
-          <div class="float-left w-[215px] text-left
+          <div class="w-[215px] text-left
                       lg:w-[130px]">
             Connect
 
@@ -793,19 +793,22 @@
                 min-[390px]:hidden
                 min-[320px]:hidden">
       <div class="bg-[#307060] h-[50px] text-left 
-                  lg:w-[100%] lg:mt-[270px]
-                  xl:w-[100%] xl:mt-[270px]">
-          <div class="float-left ml-[50px] mt-[15px]">
-            <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
-          </div>
-          <div class="float-left ml-[50px] mt-[15px]
-                      lg:ml-[400px] lg:w-[375px]
-                      xl:ml-[665px]">
-            <span class="text-white text-[14px]">Accessibility</span>
-            <span class="text-white text-[14px] ml-[65px]
-                         lg:ml-[50px]">Legal</span>
-            <span class="text-white text-[14px] ml-[65px]
-                         lg:ml-[50px]">Privacy Statement</span>
+                  lg:w-[100%] lg:mt-[20px]
+                  xl:w-[100%] xl:mt-[20px]">
+
+          <div class="flex">
+            <div class="ml-[50px] mt-[15px]">
+              <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
+            </div>
+            <div class="ml-[50px] mt-[15px]
+                        lg:ml-[400px] lg:w-[375px]
+                        xl:ml-[665px]">
+              <span class="text-white text-[14px]">Accessibility</span>
+              <span class="text-white text-[14px] ml-[65px]
+                           lg:ml-[50px]">Legal</span>
+              <span class="text-white text-[14px] ml-[65px]
+                           lg:ml-[50px]">Privacy Statement</span>
+            </div>
           </div>
       </div>
     </div>
@@ -845,19 +848,21 @@
                     min-[320px]:block">
         <div class="mt-[20px]">
           <div class="bg-[#307060] h-[39px] text-left mt-[160px]">
-            <div class="float-left ml-[20px] mt-[-10px]
-                        min-[412px]:w-[212px]
-                        min-[390px]:w-[112px]
-                        min-[320px]:w-[100px]">
-              <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
-            </div>
-            <div class="float-left mt-[-25px] 
-                        min-[412px]:w-[192px] min-[412px]:ml-[220px]
-                        min-[390px]:w-[185px] min-[390px]:ml-[198px]
-                        min-[320px]:hidden">
-              <span class="text-white text-[8px]">Accessibility</span>
-              <span class="text-white text-[8px] ml-[10px]">Legal</span>
-              <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
+            <div class="flex">
+              <div class="ml-[20px] mt-[-10px]
+                          min-[412px]:w-[212px]
+                          min-[390px]:w-[112px]
+                          min-[320px]:w-[100px]">
+                <span class="text-white text-[8px]">© PT. Bumi Kadaka 2024</span>
+              </div>
+              <div class="mt-[-25px] 
+                          min-[412px]:w-[192px] min-[412px]:ml-[220px]
+                          min-[390px]:w-[185px] min-[390px]:ml-[198px]
+                          min-[320px]:hidden">
+                <span class="text-white text-[8px]">Accessibility</span>
+                <span class="text-white text-[8px] ml-[10px]">Legal</span>
+                <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
+              </div>
             </div>
           </div>
         </div>
