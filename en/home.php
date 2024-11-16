@@ -130,7 +130,7 @@
                   min-[390px]:block min-[390px]:ml-[10px] min-[390px]:w-[370px]
                   min-[320px]:block min-[320px]:ml-[10px] min-[320px]:w-[300px]">
         <div class="mt-[10px]">
-          <span class="text-[11px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
+          <span class="text-[11px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
       <!-- END MOBILE -->

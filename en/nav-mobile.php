@@ -1,6 +1,6 @@
 <nav x-data="{ open: false }" 
      class="lg:hidden 
-            min-[1007px]:hidden
+            min-[1023px]:hidden
             min-[412px]:w-[100%] min-[412px]:h-[65px]
             min-[390px]:w-[100%] min-[390px]:h-[65px]
             min-[320px]:w-[100%] min-[320px]:h-[65px]">

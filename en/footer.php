@@ -110,7 +110,7 @@
                 min-[320px]:block">
     <div class="mt-[20px]">
       <div class="bg-[#307060] h-[39px] text-left mt-[160px]">
-        <div class="flex">
+        <div class="flex w-[100%]">
           <div class="ml-[20px] mt-[-10px]
                       min-[412px]:w-[212px]
                       min-[390px]:w-[112px]
@@ -123,7 +123,7 @@
                       min-[320px]:hidden">
             <span class="text-white text-[8px]">Accessibility</span>
             <span class="text-white text-[8px] ml-[10px]">Legal</span>
-            <span class="text-white text-[8px] ml-[10px]">Privacy Statement</span>
+            <span class ="text-white text-[8px] ml-[10px]">Privacy Statement</span>
           </div>
         </div>
       </div>
