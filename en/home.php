@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/bumi-kadaka/resources/img/ico/ico-bumi-kadaka.png" sizes="32x32">
-  <link rel="stylesheet" href="./resources/css/main.css">
+  <link rel="stylesheet" href="/bumi-kadaka/resources/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://flowbite.com/docs/flowbite.min.js"></script>
@@ -13,7 +16,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <script src="./resources/js/function.js"></script>
 </head>
-<body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center work-sans">
 
   <?php include 'nav.php'?>
 
@@ -115,7 +118,7 @@
                   min-[390px]:hidden
                   min-[320px]:hidden">
         <div class="mt-[20px]">
-          <span class="text-[24px]">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
+          <span class="text-[24px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
 
@@ -167,7 +170,7 @@
             <div class="text-[#2F2E2E] text-[24px] non-italic font-bold text-left
                         lg:text-[14px]
                         xl:text-[20px]">
-              <a href="">Read More . . .</a>
+              <a href="en/about-us/history.php">Read More . . .</a>
             </div>
           </div>
           </div>
@@ -383,8 +386,8 @@
                 min-[390px]:hidden
                 min-[320px]:hidden">
       <div class="mt-[80px]">
-        <div class="items-center">
-          <div class="float-left pl-[50px] mt-[60px] w-[40%] 
+        <div class="flex items-center">
+          <div class="pl-[50px] mt-[60px] w-[40%] 
                       lg:w-[45%] lg:mt-[0px]
                       xl:w-[40%] xl:mt-[30px]">
             <div class="text-left">
@@ -406,7 +409,7 @@
               <a href="">Download Annual Report</a>
             </div>
           </div>
-          <div class="float-left ml-[50px;] lg:ml-[75px]">
+          <div class="ml-[50px;] lg:ml-[75px]">
             <img class="w-[735px] h-[571px] 
                         lg:w-[400px] lg:h-[auto]
                         xl:w-[610px] xl:h-[auto]" src="./resources/img/home/annual-report.png" alt="">
@@ -459,8 +462,8 @@
                 min-[412px]:hidden 
                 min-[390px]:hidden
                 min-[320px]:hidden">
-      <div class="mt-[650px]
-                  lg:mt-[500px]">
+      <div class="lg:mt-[50px]
+                  xl:mt-[50px]">
         <div class="mt-[90px] bg-[#EFAE93] 
                     lg:w-[100%] 
                     xl:w-[100%]">

@@ -5,10 +5,13 @@
               min-[412px]:w-[100%] min-[412px]:block
               min-[390px]:w-[100%] min-[390px]:block
               min-[320px]:w-[100%] min-[320px]:block">
-<div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal float-right mr-[20px] 
+<div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal
             min-[390px]:mt-[3px]
             min-[320px]:mt-[3px]">
-  IN | EN
+    <div class="lg:w-[1440px] lg:m-auto 
+                xl:w-[1440px] xl:m-auto">
+        <div class="float-right mr-[65px]">IN | EN</div>
+    </div>
 </div>
 </header>
 <!-- END TOP -->
@@ -25,7 +28,9 @@
 <nav aria-label="Global" 
      class="flex items-center justify-between p-6 
             max-[960px]:hidden
-            lg:px-8" >
+            lg:px-8 
+            lg:w-[1440px] lg:m-auto
+            xl:w-[1440px] xl:m-auto">
   <div class="flex lg:flex-1">
     <img class="h-8 w-[232px] h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
   </div>
