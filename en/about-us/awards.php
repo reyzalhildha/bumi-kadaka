@@ -1,18 +1,8 @@
 <!doctype html>
 <html>
-<head>
-  <title>PT. Bumi Kadaka</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/bumi-kadaka/resources/img/ico/ico-bumi-kadaka.png" sizes="32x32">
-  <link rel="stylesheet" href="./resources/css/main.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="https://flowbite.com/docs/flowbite.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script src="./resources/js/function.js"></script>
-</head>
+
+<?php include '../header.php'?>
+
 <body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
 
   <?php include '../nav.php'?>

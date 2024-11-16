@@ -107,7 +107,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/vision-mission.php">
                         <span class="whitespace-nowrap">Visi Misi</span>
                     </a>
                 </li>
@@ -117,12 +117,12 @@
                     </a>
                 </li>
                 <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/awards.php">
                         <span class="whitespace-nowrap">Awards</span>
                     </a>
                 </li>
                 <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/structure-organization.php">
                         <span class="whitespace-nowrap">Structure Organization</span>
                     </a>
                 </li>
