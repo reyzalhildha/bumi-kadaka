@@ -61,15 +61,15 @@
                 min-[1706px]:w-[63%]
                 min-[1600px]:w-[63%]
                 min-[1422px]:w-[61%]
-                min-[1280px]:w-[45%]
-                min-[1163px]:w-[35%]
-                min-[1024px]:w-[27%]
+                min-[1280px]:w-[54%]
+                min-[1163px]:w-[44%]
+                min-[1024px]:w-[36%]
                 ">
         <img class="h-8 w-[232px] h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
     </div>
-    <div class="xl:w-[55%]
-                lg:w-[55%]
-                min-[1280px]:w-[55%]">
+    <div class="xl:w-[38%]
+                lg:w-[38%]
+                min-[1280px]:w-[38%]">
         <ul class="flex flex-wrap items-center font-medium text-sm">
         <li class="p-4 
                    lg:px-8">
@@ -108,7 +108,7 @@
                 </li>
                 <li>
                     <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/vision-mission.php">
-                        <span class="whitespace-nowrap">Visi Misi</span>
+                        <span class="whitespace-nowrap">Vission Mission</span>
                     </a>
                 </li>
                 <li>
@@ -156,21 +156,21 @@
                     x-cloak
                     @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
                     <li>
-                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/our-brands/hotels.php">
                             <span class="whitespace-nowrap">Hotels</span>
                         </a>
                     </li>
                     <li>
-                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                        <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/our-brands/restaurants.php">
                             <span class="whitespace-nowrap">Restaurant</span>
                         </a>
                     </li>
                 </ul>
         </li>
-        <li class="p-4 
+        <!-- <li class="p-4 
                     lg:px-8">
             <a class="text-slate-800 hover:text-slate-900 font-normal" href="#">Investor</a>
-        </li>
+        </li> -->
         <li class="p-4 
                     lg:px-8">
             <a class="text-slate-800 hover:text-slate-900 font-normal" href="#">Contact Us</a>

@@ -25,9 +25,6 @@
                     lg:-text[14px]">
           <div class="mt-[5px]">Home</div>
           <div class="mt-[5px]">About</div>
-          <div class="mt-[5px]">Our Company</div>
-          <div class="mt-[5px]">Contact</div>
-          <div class="mt-[5px]">Find A Job</div>
         </div>
       </div>
 
@@ -37,11 +34,8 @@
 
         <div class="mt-[20px] text-[#4F4F4F] text-[14px]
                     lg:w-[120px] lg:-text[14px]">
-          <div class="mt-[5px]">Twitter</div>
-          <div class="mt-[5px]">Facebook</div>
-          <div class="mt-[5px]">LinkedIn</div>
-          <div class="mt-[5px]">Email Subscription</div>
-          <div class="mt-[5px]">RSS Subscription</div>
+          <div class="mt-[5px]">Our Company</div>
+          <div class="mt-[5px]">Contact</div>
         </div>
       </div>
     </div>

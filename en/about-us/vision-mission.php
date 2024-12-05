@@ -24,8 +24,8 @@
                   min-[320px]:hidden">
         <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
         </div>
-        <div class="bg-[#F1AE93] w-[263px] mt-[-45px]">
-            <span class="text-white text-[30px] font-bold">About US</span>
+        <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
+            <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
         <div class="m-[50px]">
@@ -78,8 +78,8 @@
             <div class="xl:w-[45%] xl:h-[20%] ml-[30px]
                         lg:w-[45%] lg:h-[20%] ml-[30px]">
                         <img src="/bumi-kadaka/resources/img/about-us/vision.png" 
-                        class="xl:w-[100%] xl:h-[198px] xl:object-none xl:object-center
-                               lg:w-[100%] lg:h-[198px] lg:object-none lg:object-center">
+                        class="xl:w-[521px] xl:h-[198px] xl:object-cover
+                               lg:w-[521px] lg:h-[198px] lg:object-cover">
 
             </div>
           </div>
@@ -110,7 +110,7 @@
 
               <div class="xl:w-[460px] xl:ml-[20px]
                           lg:w-[460px] lg:ml-[20px]">
-                  <img src="/bumi-kadaka/resources/img/about-us/ordinary.png" 
+                  <img src="/bumi-kadaka/resources/img/about-us/sustain.png" 
                        class="xl:w-[400px]
                               lg:w-[400px]">
               </div>

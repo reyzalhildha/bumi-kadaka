@@ -24,8 +24,8 @@
                   min-[320px]:hidden">
         <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
         </div>
-        <div class="bg-[#F1AE93] w-[263px] mt-[-45px]">
-            <span class="text-white text-[30px] font-bold">About US</span>
+        <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
+            <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
         <div class="m-[50px]">
@@ -38,13 +38,35 @@
                       lg:mt-[50px]">
             <div class="w-[45%]">
               <img src="/bumi-kadaka/resources/img/about-us/history-content-1.png" 
-                      class="lg:w-[475px] lg:h-[396px]">
+                      class="lg:w-[475px] lg:h-[576px]">
             </div>
-            <div class="w-[55%] text-justify
-                        lg:font-[700]
-                        xl:font-[700]">
+            <div class="w-[55%] text-justify">
               <p>
-                PT Bumi Kadaka, established in 2013 in Bandung, Indonesia, focuses on hotel, resort, culinary, and tourism services. The company combines local uniqueness, natural beauty, technology, and sustainable practices to drive innovation in the hospitality and tourism industry. Sit suspendisse ultricies et phasellus tincidunt. Urna morbi felis nisl pharetra suspendisse nec malesuada ipsum augue. Sapien lacus vestibulum elementum mi tristique. Gravida elit massa vitae integer in pulvinar quis. Aliquet pharetra elementum amet bibendum in. Tellus dictum sagittis aliquet pretium ipsum. Viverra nulla eleifend tellus ut quis at.
+                <b>PT Bumi Kadaka</b> is a well-known company based in Indonesia, primarily engaged in the agriculture, hospitality, and real estate development sectors. The company has made a mark for itself through its focus on sustainable development, eco-tourism, and community-based initiatives, especially in the region around Ciwidey, West Java. While specific details about its formation and early history may not be as widely publicized, <b>PT Bumi Kadaka</b> has become recognized for its involvement in developing eco-tourism projects and resorts, especially in areas like Forest Hills Ciwidey. 
+              </p>
+              
+              <br>
+              
+              <p>
+                Here’s a general look at the history and operations of <b>PT Bumi Kadaka</b>:
+              </p>
+
+              <br>
+
+              <p>
+                <b>1. Formation and Early Years</b>
+              </p>
+
+              <br>
+
+              <p>
+                <b>PT Bumi Kadaka</b> was founded as a company with the goal of combining sustainable agricultural practices with innovative real estate and tourism developments. The company likely emerged during a time when Indonesia was seeing growth in its middle class and tourism sector, particularly in areas like West Java, which has long been known for its beautiful landscapes and cooler climate. The company’s focus on agro-tourism and eco-resorts was a natural response to these trends.
+              </p>
+
+              <br>
+
+              <p>
+                As with many companies in Indonesia’s burgeoning tourism sector, <b>PT Bumi Kadaka</b>capitalized on the growing demand for nature-based tourism and upscale, eco-friendly resorts. This movement also aligned with a broader push towards sustainable development practices in Indonesia, driven by the recognition of the importance of preserving the country's natural resources while offering unique travel experiences.
               </p>
             </div>
           </div>
@@ -52,16 +74,30 @@
           <div class="flex
                       xl:mt-[50px]
                       lg:mt-[50px]">
-              <div class="w-[55%] text-justify
-                          lg:font-[700] lg:mr-[60px]
-                          xl:font-[700] xl:mr-[60px]">
+              <div class="w-[55%] text-justify mr-[60px]">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Quis libero mi dictumst egestas mattis pretium habitasse non. Neque mauris lorem gravida et nec lacus aenean feugiat vestibulum. Tincidunt porta aenean mi diam mi in. Integer eget mauris purus placerat. Non ut amet vel lectus et sed ut integer purus. Et consectetur vitae commodo tellus eu metus tempus sagittis ultrices. In eu ac eget ac. Condimentum faucibus facilisis vitae at volutpat nunc. Sit suspendisse ultricies et phasellus tincidunt. Urna morbi felis nisl pharetra suspendisse nec malesuada ipsum augue. Sapien lacus vestibulum elementum mi tristique. Gravida elit massa vitae integer in pulvinar quis. Aliquet pharetra elementum amet bibendum in. Tellus dictum sagittis aliquet pretium ipsum. Viverra nulla eleifend tellus ut quis at.
+                  <b>2. Focus on Sustainable Development and Agro-Tourism</b>
+                </p>
+                <br>
+                <p>
+                  <b>PT Bumi Kadaka</b> is particularly known for its focus on sustainable tourism that promotes local culture, environmental conservation, and community involvement. The company sought to balance commercial success with environmental stewardship by developing resorts that are eco-friendly and aligned with the surrounding natural landscapes.
+                </p>
+                <br>
+                <p>
+                  <b>Forest Hills Ciwidey Resort</b>
+                </p>
+                <br>
+                <p>
+                  One of the key developments under <b>PT Bumi Kadaka</b> portfolio is Forest Hills Ciwidey Hotel, a popular eco-resort located in the Rancabali region of Ciwidey, West Java. The resort is known for its serene environment, designed to provide a balance between relaxation, adventure, and nature exploration. Forest Hills offers visitors a variety of experiences, from staying in eco-lodges and private villas to enjoying outdoor activities like hiking, tea plantation tours, and exploring natural hot springs.
+                </p>
+                <br>
+                <p>
+                  The resort embodies the company’s commitment to eco-tourism, with a design that emphasizes green building techniques, water conservation, and the integration of natural surroundings into the resort’s infrastructure.
                 </p>
               </div>
               <div class="w-[40%]">
                 <img src="/bumi-kadaka/resources/img/about-us/history-content-2.png" 
-                        class="lg:w-[475px] lg:h-[396px]">
+                        class="lg:w-[475px] lg:h-[456px]">
             </div>        
           </div>
 
@@ -76,17 +112,18 @@
                 <span class="font-bold text-[40px]">Milestone</span>
               </div>
 
-              <div class="text-justify font-bold">
+              <div class="text-justify">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Libero eget placerat in lectus nunc a. Lectus phasellus ornare eget a arcu. Elementum leo aenean et aliquam commodo elit volutpat sagittis. Non magna sed sit pellentesque dolor ut quisque mauris. Urna hendrerit imperdiet sapien commodo egestas at interdum volutpat.
+                 <b> PT Bumi Kadaka </b>has made significant contributions to the fields of eco-tourism, sustainable agriculture, and real estate development in Indonesia, particularly in areas like Ciwidey, West Java. While specific milestones in the company's history may not be as widely publicized, some key events and developments can be identified based on the company’s focus on these sectors. Below is an overview of PT Bumi Kadaka's major milestones, including the establishment of significant projects, key achievements, and strategic growth:
                 </p>
               </div>
           </div>
 
-          <div class="flex
-                      xl:mt-[50px]
+          <div class="xl:mt-[50px]
                       lg:mt-[50px]">
-            <div class="xl:w-[45%]
+                <img src="/bumi-kadaka/resources/img/about-us/past-present.png">
+
+            <!-- <div class="xl:w-[45%]
                         lg:w-[45%]">
                 <img src="/bumi-kadaka/resources/img/about-us/present.png" alt=""
                      class="xl:h-[730px]
@@ -175,7 +212,7 @@
 
               <div class="mt-[5px] w-[100%]" style="border-bottom : 2px solid black"></div>
 
-            </div>
+            </div> -->
           </div>
 
           <div class="bg-[#307060]

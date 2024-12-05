@@ -24,8 +24,8 @@
                   min-[320px]:hidden">
         <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
         </div>
-        <div class="bg-[#F1AE93] w-[263px] mt-[-45px]">
-            <span class="text-white text-[30px] font-bold">About US</span>
+        <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
+            <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
         <div class="m-[50px]">
@@ -45,13 +45,13 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
-            <div class="w-[100%]
+            <!-- <div class="w-[100%]
                         lg:font-[700] lg:mt-[50px]
                         xl:font-[700] xl:mt-[50px]">
               <img src="/bumi-kadaka/resources/img/about-us/structure-organization.png" 
                       class="lg:w-[100%] 
                               lg:h-[100%]">
-            </div>
+            </div> -->
           </div>
 
           <div class="bg-[#307060]
@@ -115,7 +115,7 @@
             <div class="xl:w-[100%] xl:ml-[50px] xl:mt-[-10px]
                         lg:w-[100%] lg:ml-[50px] lg:mt-[-10px]">
                 <div class="font-[700] font-bold text-[36px] text-left">
-                  CHIEF FINANCIAL OFFICER (CFO)
+                  CHIEF OPERATING OFFICER (COO)
                 </div>
                 <div class="font-[700] font-bold text-[24px] text-left
                             xl:mt-[15px]
