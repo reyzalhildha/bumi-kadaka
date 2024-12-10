@@ -30,7 +30,7 @@
 
         <div class="m-[50px]">
           <div class="text-left">
-            <span class="font-bold text-[40px]">Hotels</span>
+            <span class="font-bold text-[40px]">Restaurants</span>
           </div>
 
           <div class="flex

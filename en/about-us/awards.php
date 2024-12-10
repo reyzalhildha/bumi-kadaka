@@ -64,8 +64,8 @@
                           xl:w-[45%] xl:mr-[50px] 
                           lg:w-[45%] lg:mr-[50px]">
                 <img src="/bumi-kadaka/resources/img/about-us/tripadivisor.png" 
-                        class="xl:w-[100%]
-                               lg:w-[100%]"
+                        class="xl:w-[100%] h-[100%]
+                               lg:w-[100%] h-[100%]"
                         style="border: 10px solid #307060;">
               </div>
 

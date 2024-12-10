@@ -92,12 +92,16 @@
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  CFO at PT SARI ATER since 2017 – present
+                    <ul class="list-disc list-inside">
+                        <li>CFO at PT SARI ATER since 2017 – present</li>
+                    </ul>
                 </div>
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  CEO at PT BUMI KADAKA since 2019 - present
+                    <ul class="list-disc list-inside">
+                        <li>CEO at PT BUMI KADAKA since 2019 - present</li>
+                    </ul>
                 </div>
             </div>
           </div>
@@ -135,17 +139,23 @@
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  Credit Analyst at BRI since 2010 – 2021
+                    <ul class="list-disc list-inside">
+                        <li>Credit Analyst at BRI since 2010 – 2021</li>
+                    </ul>
                 </div>
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  CEO at PT RUMAH KESATU since 2021 – 2023
+                    <ul class="list-disc list-inside">
+                        <li>CEO at PT RUMAH KESATU since 2021 – 2023</li>
+                    </ul>
                 </div>
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  CFO at PT BUMI KADAKA since 2023 - present
+                    <ul class="list-disc list-inside">
+                        <li>CFO at PT BUMI KADAKA since 2023 - present</li>
+                    </ul>
                 </div>
             </div>
           </div>
@@ -183,17 +193,23 @@
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  Sales Manager at PADMA HOTEL since 2011 – 2020
+                    <ul class="list-disc list-inside">
+                        <li>Sales Manager at PADMA HOTEL since 2011 – 2020</li>
+                    </ul>
                 </div>
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  COO at PT BUMI KADAKA since 2020 – present
+                    <ul class="list-disc list-inside">
+                        <li>COO at PT BUMI KADAKA since 2020 – present</li>
+                    </ul>
                 </div>
                 <div class="text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  General Manager at Forest Hills Hotel Ciwidey since 2022 - present
+                    <ul class="list-disc list-inside">
+                        <li>General Manager at Forest Hills Hotel Ciwidey since 2022 - present</li>
+                    </ul>
                 </div>
             </div>
           </div>

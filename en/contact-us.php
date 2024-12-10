@@ -65,7 +65,7 @@
                 </div>
                 <div>
                   <p>
-                    (022) 30500333
+                    (022) 30509995
                   </p>
                 </div>
               </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div>
                   <p>
-                    reservation@foresthillshotelciwidey.com
+                    contact@ptbumikadaka.com
                   </p>
                 </div>
               </div>
