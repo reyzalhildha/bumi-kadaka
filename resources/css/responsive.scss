@@ -1,0 +1,17 @@
+body {
+    .container-kadaka {
+        .content-kadaka {
+            width: 100%;
+            margin: auto;
+            padding-top: 6rem;
+
+            @media screen and (min-width: 1536px) {
+                width: 1536px;
+                padding-top: 10rem;
+            }
+            @media screen and (min-width: 1024px) {
+                padding-top: 8rem;
+            }
+        }
+    }
+}
