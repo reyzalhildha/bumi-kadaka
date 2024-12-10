@@ -73,7 +73,6 @@
                       xl:mt-[50px] xl:h-[27px] xl:w-[100%]
                       lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
           </div>
-
         </div>
 
     </div>

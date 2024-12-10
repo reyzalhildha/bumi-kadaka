@@ -1,8 +1,6 @@
 <!doctype html>
 <html>
-
 <?php include 'header.php'?>
-
 <body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center work-sans">
 
   <?php include 'nav.php'?>
