@@ -3,7 +3,7 @@
 
 <?php include '../header.php'?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
   <?php include '../nav.php'?>
 
@@ -22,7 +22,7 @@
                   min-[412px]:hidden 
                   min-[390px]:hidden
                   min-[320px]:hidden">
-        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
             <span class="text-white text-[30px] font-bold">About Us</span>
@@ -37,7 +37,7 @@
                       xl:mt-[50px]
                       lg:mt-[50px]">
             <div class="w-[45%]">
-              <img src="/bumi-kadaka/resources/img/about-us/history-content-1.png" 
+              <img src="https://bumikadaka.com/resources/img/about-us/history-content-1.png" 
                       class="lg:w-[475px] lg:h-[576px]">
             </div>
             <div class="w-[55%] text-justify">
@@ -96,7 +96,7 @@
                 </p>
               </div>
               <div class="w-[40%]">
-                <img src="/bumi-kadaka/resources/img/about-us/history-content-2.png" 
+                <img src="https://bumikadaka.com/resources/img/about-us/history-content-2.png" 
                         class="lg:w-[475px] lg:h-[456px]">
             </div>        
           </div>
@@ -106,7 +106,7 @@
                       lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
           </div>
 
-          <div class="xl:mt-[50px]
+          <div id="milestone" class="xl:mt-[50px]
                       lg:mt-[50px]">
               <div class="text-left mb-[50px]">
                 <span class="font-bold text-[40px]">Milestone</span>
@@ -121,11 +121,11 @@
 
           <div class="xl:mt-[50px]
                       lg:mt-[50px]">
-                <img src="/bumi-kadaka/resources/img/about-us/past-present.png">
+                <img src="https://bumikadaka.com/resources/img/about-us/past-present.png">
 
             <!-- <div class="xl:w-[45%]
                         lg:w-[45%]">
-                <img src="/bumi-kadaka/resources/img/about-us/present.png" alt=""
+                <img src="https://bumikadaka.com/resources/img/about-us/present.png" alt=""
                      class="xl:h-[730px]
                             lg:h-[730px]">
             </div>

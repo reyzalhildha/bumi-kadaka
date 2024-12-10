@@ -81,7 +81,7 @@
           x-data="{ open: false }"
           @mouseenter="open = true"
           @mouseleave="open = false" style="margin-right: -20px;">
-            <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px]"
+            <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px] cursor-default"
                 href="#0"
                 :aria-expanded="open">About Us</a>
 
@@ -112,7 +112,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="#">
+                    <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/history.php/#milestone">
                         <span class="whitespace-nowrap">Milestone</span>
                     </a>
                 </li>
@@ -135,7 +135,7 @@
                     @mouseenter="open = true"
                     @mouseleave="open = false" style="margin-right: -20px;">
 
-            <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px]"
+            <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px] cursor-default"
                 href="#0"
                 :aria-expanded="open">Our Brands</a>
 

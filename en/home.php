@@ -1,17 +1,12 @@
 <!doctype html>
 <html>
-<?php include 'header.php'?>
+<?php include 'header.php' ?>
 <body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center work-sans">
 
-  <?php include 'nav.php'?>
+  <?php include 'nav.php' ?>
+<div class="container-kadaka">
 
-  <div style="margin: auto;" 
-       class="w-[1440px]
-              lg:w-[1000px] lg:ml-[0px]
-              xl:w-[1280px]
-              min-[412px]:w-[412px]
-              min-[390px]:w-[390px]
-              min-[320px]:w-[320px]">
+  <div class="content-kadaka">
     
     <!-- SLIDER -->
       <div class="flex w-full flex-col 
@@ -20,26 +15,23 @@
                   min-[412px]:hidden 
                   min-[390px]:hidden
                   min-[320px]:hidden">
-        <div class="lg:mt-[130px]">
           <div  id="default-carousel" 
                 data-carousel="slide"
-                class="relative w-full
-                        xl:mt-[-33px]" >
+               class="relative w-full xl:mt-[-33px]" >
               <div class="relative h-56 overflow-hidden rounded-lg 
                           xl:h-[598px]
                           lg:h-[340px]">
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                       <img src="./resources/img/slider/slider-1.png" 
                       class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                       lg:w-[100%]">
                   </div>
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                       <img src="./resources/img/slider/slider-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                       lg:w-[100%]">
                   </div>
               </div>
-              <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer 
-                          xl:mt-[-32px]">
+              <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer mt-[-12px] mr-[40px]">
                 <button type="button" class="group focus:outline-none" data-carousel-next>
                   <span class="inline-flex items-center justify-center w-[43px] h-[34px] bg-white/30 dark:bg-[#F1AE93] group-hover:bg-white/50 dark:group-hover:bg-[#F1AE93] group-focus:outline-none">
                       <svg class="w-4 h-4 text-white dark:text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -57,7 +49,6 @@
                 </button>
               </div>
           </div>
-        </div>
       </div>
 
       <!-- MOBILE -->
@@ -67,29 +58,25 @@
                   min-[412px]:block
                   min-[390px]:block
                   min-[320px]:block">
-        <div class="mt-[117px]">
-          <img src="./resources/img/mobile/slide-mobile.png" 
-               class="min-[412px]:w-[412px]
-                      min-[390px]:w-[390px]
-                      min-[320px]:w-[320px]">
+        <div class="relative">
+          <img src="./resources/img/slider/slider-image-1.png" 
+               class="w-full h-[200px] min-[768px]:h-[300px] object-cover">
+               
+          <div class="relative w-full bottom-0
+                      bg-[#F1AE93] h-[92px] text-justify">
+            <div class="grid">
+              <div class="w-full" style="padding: 1em 1em 0 1em">
+                <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
+              </div>
+              <div class="w-full" style="padding: 0 1em">
+                <p class="text-white text-[9px] 
+                          min-[412px]:w-[392px]
+                          min-[390px]:w-[370px]
+                          min-[320px]:w-[300px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+              </div>
+            </div>
+          </div>
                       
-        </div>
-        <div class="bg-[#F1AE93] h-[92px] text-justify
-                    min-[412px]:w-[412px]
-                    min-[390px]:w-[390px]
-                    min-[320px]:w-[320px]">
-          <div class="float-left ml-[10px] mt-[10px]">
-            <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
-          </div>
-          <div class="float-left ml-[10px] 
-                      min-[412px]:w-[392px]
-                      min-[390px]:w-[370px]
-                      min-[320px]:w-[300px]">
-            <p class="text-white text-[9px] 
-                      min-[412px]:w-[392px]
-                      min-[390px]:w-[370px]
-                      min-[320px]:w-[300px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
-          </div>
         </div>
       </div>
       <!-- END MOBILE -->
@@ -111,9 +98,7 @@
       <div class="flex w-full flex-col 
                   lg:hidden 
                   xl:hidden 
-                  min-[412px]:block min-[412px]:ml-[10px] min-[412px]:w-[392px]
-                  min-[390px]:block min-[390px]:ml-[10px] min-[390px]:w-[370px]
-                  min-[320px]:block min-[320px]:ml-[10px] min-[320px]:w-[300px]">
+                  w-full m-0">
         <div class="mt-[10px]">
           <span class="text-[11px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
@@ -170,28 +155,17 @@
                   min-[390px]:block
                   min-[320px]:block">
         <div class="mt-[20px]">
-          <img src="./resources/img/mobile/about-us-mobile.png" 
-               class="min-[412px]:w-[412px]
-                      min-[390px]:w-[390px]
-                      min-[320px]:w-[320px]">
+          <img src="./resources/img/home/about-us-home.png" 
+               class="w-full h-[200px] min-[768px]:h-[300px] object-cover">
         </div>
         <div class="h-[92px] text-justify">
-          <div class="float-left ml-[10px] mt-[15px] 
-                      min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]
-                      min-[320px]:w-[300px]">
+          <div class="w-full" style="padding: 1em 1em 0 1em;">
             <span class="text-[16px] font-bold">About Us</span>
           </div>
-          <div class="float-left ml-[10px] mt-[5px] 
-                      min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]
-                      min-[320px]:w-[300px]">
+          <div class="w-full" style="padding: 0 1em;">
             <p class="text-[9px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
           </div>
-          <div class="float-left ml-[10px] 
-                      min-[412px]:w-[390px]
-                      min-[390px]:w-[370px]
-                      min-[320px]:w-[300px]">
+          <div class="w-full" style="padding: 0 1em;">
             <span class="text-[9px] font-bold">Read More ...</span>
           </div>
         </div>
@@ -231,14 +205,14 @@
         </div>
     </div>
 
-      <!-- END MOBILE -->
+      <!-- MOBILE -->
       <div class="flex w-full flex-col 
                   lg:hidden 
                   xl:hidden 
                   min-[412px]:block
                   min-[390px]:block
                   min-[320px]:block">
-        <div class="mt-[40px] h-[160px] bg-[url('./resources/img/mobile/documentary-mobile.png')]">
+        <div class="mt-[40px] h-[160px] bg-no-repeat bg-cover bg-[url('./resources/img/mobile/documentary-mobile.png')]">
           <div class="text-center font-medium non-italic w-auto">
             <br>
             <span class=" text-white font-[500] 
@@ -265,7 +239,7 @@
           </div>
         </div>
       </div>
-      <!-- END ABOUT US -->
+      <!-- END MOBILE -->
     <!-- END DOCUMENTARY -->
 
     <!-- MOVING IMAGE -->
@@ -580,7 +554,7 @@
       <!-- END MOBILE -->
     <!-- END FEATURED -->
 
-    <?php include 'footer.php'?>
+    <?php include 'footer.php' ?>
 
   </div>
 </body>
