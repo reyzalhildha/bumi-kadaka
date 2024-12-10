@@ -9,12 +9,9 @@
     <div class="content-kadaka">
 
       <!-- SLIDER -->
-      <div class="flex w-full flex-col 
+      <div class="flex w-full flex-col hidden
                     lg:block 
-                    xl:block 
-                    min-[412px]:hidden 
-                    min-[390px]:hidden
-                    min-[320px]:hidden">
+                    xl:block ">
         <div id="default-carousel"
           data-carousel="slide"
           class="relative w-full xl:mt-[-33px]">
@@ -83,12 +80,9 @@
       <!-- END SLIDER -->
 
       <!-- DE LIGHT -->
-      <div class="flex w-full flex-col 
+      <div class="flex w-full flex-col hidden
                     lg:block 
-                    xl:block 
-                    min-[412px]:hidden 
-                    min-[390px]:hidden
-                    min-[320px]:hidden">
+                    xl:block">
         <div class="mt-[20px]">
           <span class="text-[24px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
