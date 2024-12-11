@@ -15,9 +15,7 @@
         <div id="default-carousel"
           data-carousel="slide"
           class="relative w-full xl:mt-[-33px]">
-          <div class="relative h-56 overflow-hidden rounded-lg 
-                            xl:h-[598px]
-                            lg:h-[340px]">
+          <div class="relative h-[598px] overflow-hidden rounded-lg">
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
               <img src="./resources/img/slider/slider-1.png"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
@@ -66,10 +64,7 @@
                 <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
               </div>
               <div class="w-full" style="padding: 0 1em">
-                <p class="text-white text-[9px] 
-                            min-[412px]:w-[392px]
-                            min-[390px]:w-[370px]
-                            min-[320px]:w-[300px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+                <p class="text-white text-[9px] w-full">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
               </div>
             </div>
           </div>
