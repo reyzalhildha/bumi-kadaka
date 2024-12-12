@@ -1,31 +1,21 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php'?>
+<?php include '../header.php' ?>
 
 <body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php'?>
+  <?php include '../nav.php' ?>
 
-  <div style="margin: auto;" 
-       class="w-[1440px]
-              lg:w-[1000px] lg:ml-[0px]
-              xl:w-[1280px]
-              min-[412px]:w-[412px]
-              min-[390px]:w-[390px]
-              min-[320px]:w-[320px]">
-    
-    <!-- MAIN -->
-    <div class="flex w-full flex-col 
-                  lg:block mt-[120px]
-                  xl:block 
-                  min-[412px]:hidden 
-                  min-[390px]:hidden
-                  min-[320px]:hidden">
-        <div class="bg-[url('https://bumikadaka.com/resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
+  <div class="container-kadaka">
+    <div class="content-kadaka">
+
+      <!-- MAIN -->
+      <div class="flex w-full flex-col">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
-            <span class="text-white text-[30px] font-bold">About Us</span>
+          <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
         <div class="m-[50px]">
@@ -37,16 +27,16 @@
                       xl:mt-[50px]
                       lg:mt-[50px]">
             <div class="w-[45%]">
-              <img src="https://bumikadaka.com/resources/img/about-us/history-content-1.png" 
-                      class="lg:w-[475px] lg:h-[576px]">
+              <img src="https://bumikadaka.com/resources/img/about-us/history-content-1.png"
+                class="lg:w-[475px] lg:h-[576px]">
             </div>
             <div class="w-[55%] text-justify">
               <p>
-                <b>PT Bumi Kadaka</b> is a well-known company based in Indonesia, primarily engaged in the agriculture, hospitality, and real estate development sectors. The company has made a mark for itself through its focus on sustainable development, eco-tourism, and community-based initiatives, especially in the region around Ciwidey, West Java. While specific details about its formation and early history may not be as widely publicized, <b>PT Bumi Kadaka</b> has become recognized for its involvement in developing eco-tourism projects and resorts, especially in areas like Forest Hills Ciwidey. 
+                <b>PT Bumi Kadaka</b> is a well-known company based in Indonesia, primarily engaged in the agriculture, hospitality, and real estate development sectors. The company has made a mark for itself through its focus on sustainable development, eco-tourism, and community-based initiatives, especially in the region around Ciwidey, West Java. While specific details about its formation and early history may not be as widely publicized, <b>PT Bumi Kadaka</b> has become recognized for its involvement in developing eco-tourism projects and resorts, especially in areas like Forest Hills Ciwidey.
               </p>
-              
+
               <br>
-              
+
               <p>
                 Here’s a general look at the history and operations of <b>PT Bumi Kadaka</b>:
               </p>
@@ -74,54 +64,52 @@
           <div class="flex
                       xl:mt-[50px]
                       lg:mt-[50px]">
-              <div class="w-[55%] text-justify mr-[60px]">
-                <p>
-                  <b>2. Focus on Sustainable Development and Agro-Tourism</b>
-                </p>
-                <br>
-                <p>
-                  <b>PT Bumi Kadaka</b> is particularly known for its focus on sustainable tourism that promotes local culture, environmental conservation, and community involvement. The company sought to balance commercial success with environmental stewardship by developing resorts that are eco-friendly and aligned with the surrounding natural landscapes.
-                </p>
-                <br>
-                <p>
-                  <b>Forest Hills Ciwidey Resort</b>
-                </p>
-                <br>
-                <p>
-                  One of the key developments under <b>PT Bumi Kadaka</b> portfolio is Forest Hills Ciwidey Hotel, a popular eco-resort located in the Rancabali region of Ciwidey, West Java. The resort is known for its serene environment, designed to provide a balance between relaxation, adventure, and nature exploration. Forest Hills offers visitors a variety of experiences, from staying in eco-lodges and private villas to enjoying outdoor activities like hiking, tea plantation tours, and exploring natural hot springs.
-                </p>
-                <br>
-                <p>
-                  The resort embodies the company’s commitment to eco-tourism, with a design that emphasizes green building techniques, water conservation, and the integration of natural surroundings into the resort’s infrastructure.
-                </p>
-              </div>
-              <div class="w-[40%]">
-                <img src="https://bumikadaka.com/resources/img/about-us/history-content-2.png" 
-                        class="lg:w-[475px] lg:h-[456px]">
-            </div>        
+            <div class="w-[55%] text-justify mr-[60px]">
+              <p>
+                <b>2. Focus on Sustainable Development and Agro-Tourism</b>
+              </p>
+              <br>
+              <p>
+                <b>PT Bumi Kadaka</b> is particularly known for its focus on sustainable tourism that promotes local culture, environmental conservation, and community involvement. The company sought to balance commercial success with environmental stewardship by developing resorts that are eco-friendly and aligned with the surrounding natural landscapes.
+              </p>
+              <br>
+              <p>
+                <b>Forest Hills Ciwidey Resort</b>
+              </p>
+              <br>
+              <p>
+                One of the key developments under <b>PT Bumi Kadaka</b> portfolio is Forest Hills Ciwidey Hotel, a popular eco-resort located in the Rancabali region of Ciwidey, West Java. The resort is known for its serene environment, designed to provide a balance between relaxation, adventure, and nature exploration. Forest Hills offers visitors a variety of experiences, from staying in eco-lodges and private villas to enjoying outdoor activities like hiking, tea plantation tours, and exploring natural hot springs.
+              </p>
+              <br>
+              <p>
+                The resort embodies the company’s commitment to eco-tourism, with a design that emphasizes green building techniques, water conservation, and the integration of natural surroundings into the resort’s infrastructure.
+              </p>
+            </div>
+            <div class="w-[40%]">
+              <img src="https://bumikadaka.com/resources/img/about-us/history-content-2.png"
+                class="lg:w-[475px] lg:h-[456px]">
+            </div>
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
           <div id="milestone" class="xl:mt-[50px]
                       lg:mt-[50px]">
-              <div class="text-left mb-[50px]">
-                <span class="font-bold text-[40px]">Milestone</span>
-              </div>
+            <div class="text-left mb-[50px]">
+              <span class="font-bold text-[40px]">Milestone</span>
+            </div>
 
-              <div class="text-justify">
-                <p>
-                 <b> PT Bumi Kadaka </b>has made significant contributions to the fields of eco-tourism, sustainable agriculture, and real estate development in Indonesia, particularly in areas like Ciwidey, West Java. While specific milestones in the company's history may not be as widely publicized, some key events and developments can be identified based on the company’s focus on these sectors. Below is an overview of PT Bumi Kadaka's major milestones, including the establishment of significant projects, key achievements, and strategic growth:
-                </p>
-              </div>
+            <div class="text-justify">
+              <p>
+                <b> PT Bumi Kadaka </b>has made significant contributions to the fields of eco-tourism, sustainable agriculture, and real estate development in Indonesia, particularly in areas like Ciwidey, West Java. While specific milestones in the company's history may not be as widely publicized, some key events and developments can be identified based on the company’s focus on these sectors. Below is an overview of PT Bumi Kadaka's major milestones, including the establishment of significant projects, key achievements, and strategic growth:
+              </p>
+            </div>
           </div>
 
           <div class="xl:mt-[50px]
                       lg:mt-[50px]">
-                <img src="https://bumikadaka.com/resources/img/about-us/past-present.png">
+            <img src="https://bumikadaka.com/resources/img/about-us/past-present.png">
 
             <!-- <div class="xl:w-[45%]
                         lg:w-[45%]">
@@ -215,18 +203,18 @@
             </div> -->
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
         </div>
 
+      </div>
+      <!-- END MAIN -->
+
+      <?php include '../footer.php' ?>
+
     </div>
-    <!-- END MAIN -->
-
-    <?php include '../footer.php'?>
-
   </div>
 </body>
+
 </html>

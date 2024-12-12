@@ -9,7 +9,7 @@
       <img class="h-8 w-[232px] h-[40.117px]
                   min-[412px]:w-[140px] min-[412px]:mt-[-10px]
                   min-[390px]:w-[140px] min-[390px]:mt-[-10px]
-                  min-[320px]:w-[140px] min-[320px]:mt-[-10px]" src="./resources/img/logo/logo-bumi-kadaka.svg" alt="">
+                  min-[320px]:w-[140px] min-[320px]:mt-[-10px]" src="https://bumikadaka.com/resources/img/logo/logo-bumi-kadaka.svg" alt="">
     </div>
 
     <button class="lg:hidden text-[#EFAE93] hover:text-[#307060] rounded-md transition duration-150 ease-in-out mr-1" aria-label="Main menu" aria-expanded="false">
