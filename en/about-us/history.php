@@ -27,9 +27,9 @@
             <div class="grid lg:flex mt-[50px]">
               <div class="w-full hidden lg:block">
                 <img src="../../resources/img/about-us/histories-content-1.png" alt="history"
-                  class="lg:w-[475px] lg:h-[576px]">
+                  class="w-full object-cover object-center h-[576px]">
               </div>
-              <div class="w-full text-justify px-0 lg:px-8">
+              <div class="w-full text-justify px-0 lg:pl-8">
                 <p>
                   <b>PT Bumi Kadaka</b> is a well-known company based in Indonesia, primarily engaged in the agriculture, hospitality, and real estate development sectors. The company has made a mark for itself through its focus on sustainable development, eco-tourism, and community-based initiatives, especially in the region around Ciwidey, West Java. While specific details about its formation and early history may not be as widely publicized, <b>PT Bumi Kadaka</b> has become recognized for its involvement in developing eco-tourism projects and resorts, especially in areas like Forest Hills Ciwidey.
                 </p>
@@ -65,7 +65,7 @@
             </div>
 
             <div class="grid lg:flex mt-[50px]">
-              <div class="w-full text-justify px-0 lg:px-8">
+              <div class="w-full text-justify px-0 lg:pr-8">
                 <p>
                   <b>2. Focus on Sustainable Development and Agro-Tourism</b>
                 </p>
@@ -88,7 +88,7 @@
               </div>
               <div class="w-full mt-6 justify-items-end">
                 <img src="../../resources/img/about-us/histories-content-2.png" alt="history"
-                  class="w-full h-[300px] object-cover object-center lg:h-auto">
+                  class="w-full h-[576px] object-cover object-center">
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
               </div>
             </div>
 
-            <div class="past-present mt-[50px]">
+            <div class="past-present flex justify-center mt-[50px]">
               <img src="https://bumikadaka.com/resources/img/about-us/past-present.png" alt="milestone" class="hidden lg:block">
               <div class="grid lg:hidden mt-[50px]">
                 <div class="text-left">
