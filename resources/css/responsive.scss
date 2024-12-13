@@ -1,8 +1,11 @@
 body {
     .container-kadaka {
+        display: flex;
+        justify-content: center;
+        
         .content-kadaka {
             width: 100%;
-            margin: auto;
+            margin: 0;
             padding-top: 6rem;
 
             @media screen and (min-width: 1536px) {

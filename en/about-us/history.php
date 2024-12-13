@@ -86,9 +86,9 @@
                   The resort embodies the company’s commitment to eco-tourism, with a design that emphasizes green building techniques, water conservation, and the integration of natural surroundings into the resort’s infrastructure.
                 </p>
               </div>
-              <div class="w-full mt-6 justify-items-end">
+              <div class="w-full mt-6 lg:mt-0 justify-items-end">
                 <img src="../../resources/img/about-us/histories-content-2.png" alt="history"
-                  class="w-full h-[576px] object-cover object-center">
+                  class="w-full h-[300px] object-cover object-center lg:h-[576px]">
               </div>
             </div>
           </div>
@@ -96,8 +96,8 @@
           <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
-          <div class="px-8">
-            <div id="milestone" class="xl:mt-[50px]
+          <div id="milestone" class="px-8">
+            <div class="xl:mt-[50px]
                       lg:mt-[50px]">
               <div class="text-left mb-[50px] mt-[2em]">
                 <span class="font-bold text-[40px]">Milestone</span>

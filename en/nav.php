@@ -5,32 +5,9 @@
                 min-[412px]:w-[100%] min-[412px]:block
                 min-[390px]:w-[100%] min-[390px]:block
                 min-[320px]:w-[100%] min-[320px]:block">
-<div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal
-            min-[390px]:mt-[3px]
-            min-[320px]:mt-[3px]">
-    <div class="lg:w-[1440px] lg:m-auto
-                xl:w-[1440px] xl:m-auto">
-        <div class="float-right 
-                    mr-[80px] 
-                    lg:mr-[85px]
-                    xl:mr-[85px]
-                    min-[5120px]:mr-[80px]
-                    min-[3840px]:mr-[80px]
-                    min-[2560px]:mr-[80px]
-                    min-[1920px]:mr-[80px]
-                    min-[1706px]:mr-[80px]
-                    min-[1600px]:mr-[80px]
-                    min-[1422px]:mr-[90px]
-                    min-[1280px]:mr-[195px]
-                    min-[1163px]:mr-[330px]
-                    min-[1024px]:mr-[440px]
-                    min-[853px]:mr-[25px]
-                    min-[731px]:mr-[27px]
-                    min-[640px]:mr-[29px]
-                    min-[512px]:mr-[31px]
-                    min-[426px]:mr-[27px]
-                    min-[320px]:mr-[25px]
-                    min-[256px]:mr-[27px]">IN | EN</div>
+<div class="text-[#FFF] text-center text-[14px] font-normal font-[400] leading-normal">
+    <div class="w-full flex justify-end pr-14">
+        <div class="">IN | EN</div>
     </div>
 </div>
 </header>
@@ -46,31 +23,13 @@
 
 <!-- WEB -->
 <nav aria-label="Global" 
-     class="flex items-center justify-between p-6 
-            max-[1023px]:hidden
-            lg:px-8 
-            lg:w-[1440px] lg:m-auto
-            xl:w-[1440px] xl:m-auto">
-  <div class="flex lg:flex-1">
-    <div class="xl:w-[45%]
-                lg:w-[45%]
-                min-[5120px]:w-[63%]
-                min-[3840px]:w-[63%]
-                min-[2560px]:w-[63%]
-                min-[1920px]:w-[63%]
-                min-[1706px]:w-[63%]
-                min-[1600px]:w-[63%]
-                min-[1422px]:w-[61%]
-                min-[1280px]:w-[54%]
-                min-[1163px]:w-[44%]
-                min-[1024px]:w-[36%]
-                ">
-        <img class="h-8 w-[232px] h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
+     class="flex items-center p-6 w-full m-auto max-[1023px]:hidden">
+  <div class="w-full flex justify-between">
+    <div class="w-full flex items-center">
+        <img class="h-8 h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
     </div>
-    <div class="xl:w-[38%]
-                lg:w-[38%]
-                min-[1280px]:w-[38%]">
-        <ul class="flex flex-wrap items-center font-medium text-sm">
+    <div class="w-full">
+        <ul class="flex flex-nowrap items-center justify-end font-medium text-sm">
         <li class="p-4 
                    lg:px-8">
           <a class="text-slate-800 hover:text-slate-900 font-bold text-[15px]" href="/bumi-kadaka/index.php">Home</a>
