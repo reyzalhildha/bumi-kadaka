@@ -86,8 +86,8 @@
               <img src="/bumi-kadaka/resources/img/our-brands/hotel-6.png" alt="" class="w-full h-[250px] object-cover">
             </div>
           </div>
-
         </div>
+        
         <div class="bg-[#307060] h-[27px] w-full">
         </div>
       </div>
