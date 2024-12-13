@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --primary-black: #2F2E2E;
+}
+
+body .past-present p, body .past-present h1, body .past-present h2 {
+  color: var(--primary-black);
+  font-family: "Work Sans", sans-serif;
+}
+body .past-present h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+body .past-present h2 {
+  font-size: x-large;
+  font-weight: 600;
+}
+body .past-present p {
+  font-size: large;
+  font-weight: 400;
+  text-align: left;
+}/*# sourceMappingURL=font-style.css.map */
