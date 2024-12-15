@@ -17,4 +17,14 @@ body .container-kadaka .content-kadaka {
   body .container-kadaka .content-kadaka {
     padding-top: 8rem;
   }
+}
+body .container-kadaka .content-kadaka .chief-officer .officer {
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  body .container-kadaka .content-kadaka .chief-officer .officer {
+    justify-items: unset;
+    grid-template-columns: 396px 1fr;
+  }
 }/*# sourceMappingURL=responsive.css.map */

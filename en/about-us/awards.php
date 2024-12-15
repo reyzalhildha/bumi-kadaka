@@ -48,8 +48,8 @@
 
           <div class="flex flex-wrap flex-col-reverse xl:flex-nowrap xl:flex-row mt-[50px] px-0">
             <div class="flex justify-center text-justify w-full p-6">
-              <img src="/bumi-kadaka/resources/img/about-us/tripadivisor.png"
-                class="w-auto h-auto"
+              <img class="w-auto h-auto object-contain bg-white"
+                src="/bumi-kadaka/resources/img/about-us/tripadivisor.png"
                 style="border: 10px solid #307060;">
             </div>
 
