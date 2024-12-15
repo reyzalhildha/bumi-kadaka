@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php'?>
+<?php include '../header.php' ?>
 
 <body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php'?>
+  <?php include '../nav.php' ?>
 
   <style type="text/css">
     ol,
@@ -16,63 +16,45 @@
     }
   </style>
 
-  <div style="margin: auto;" 
-       class="w-[1440px]
-              lg:w-[1000px] lg:ml-[0px]
-              xl:w-[1280px]
-              min-[412px]:w-[412px]
-              min-[390px]:w-[390px]
-              min-[320px]:w-[320px]">
-    
-    <!-- MAIN -->
-    <div class="flex w-full flex-col 
-                  lg:block mt-[120px]
-                  xl:block 
-                  min-[412px]:hidden 
-                  min-[390px]:hidden
-                  min-[320px]:hidden">
-        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
+  <div class="container-kadaka">
+    <div class="content-kadaka">
+
+      <!-- MAIN -->
+      <div class="flex w-full flex-col">
+        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
-            <span class="text-white text-[30px] font-bold">About Us</span>
+          <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
-        <div class="m-[50px]">
-          <div class="text-left">
-            <span class="font-bold text-[40px]">Awards & Recognition</span>
-          </div>
+        <div class="mx-0 mt-[50px]">
+          <div class="px-8">
+            <div class="text-center min-[486px]:text-left">
+              <span class="font-bold text-[40px]">Awards & Recognition</span>
+            </div>
 
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-            <div class="w-[100%] text-justify">
-              <p>
-                At <b>PT Bumi Kadaka</b>, we are proud to be recognized for our ongoing commitment to sustainable development, eco-tourism, and community empowerment. Our efforts to create high-quality, environmentally-conscious hospitality experiences are acknowledged not only by our guests but also by respected industry leaders and organizations. Below are some of the key accolades and certifications that reflect our dedication to sustainability, innovation, and responsible business practices.n
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+            <div class="mt-6">
+              <div class="w-[100%] text-justify">
+                <p>
+                  At <b>PT Bumi Kadaka</b>, we are proud to be recognized for our ongoing commitment to sustainable development, eco-tourism, and community empowerment. Our efforts to create high-quality, environmentally-conscious hospitality experiences are acknowledged not only by our guests but also by respected industry leaders and organizations. Below are some of the key accolades and certifications that reflect our dedication to sustainability, innovation, and responsible business practices.n
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="text-justify
-                          xl:w-[45%] xl:mr-[50px] 
-                          lg:w-[45%] lg:mr-[50px]">
-                <img src="/bumi-kadaka/resources/img/about-us/tripadivisor.png" 
-                        class="xl:w-[100%] h-[100%]
-                               lg:w-[100%] h-[100%]"
-                        style="border: 10px solid #307060;">
-              </div>
+          <div class="flex flex-wrap flex-col-reverse xl:flex-nowrap xl:flex-row mt-[50px] px-0">
+            <div class="flex justify-center text-justify w-full p-6">
+              <img src="/bumi-kadaka/resources/img/about-us/tripadivisor.png"
+                class="w-auto h-auto"
+                style="border: 10px solid #307060;">
+            </div>
 
-              <div class="xl:w-[50%]
-                          lg:w-[50%]
-                          text-left">
-
+            <div class="w-full text-left px-8">
+              <div class="p-0 xl:pl-8">
                 <span class="font-bold text-[40px]">Tripadivisor</span>
 
                 <br>
@@ -113,7 +95,7 @@
                           <li></li>
                         </td>
                         <td>
-                            Eco-Friendly Experiences: Guests rave about our commitment to green practices and the emphasis on sustainability throughout our resorts.
+                          Eco-Friendly Experiences: Guests rave about our commitment to green practices and the emphasis on sustainability throughout our resorts.
                         </td>
                       </ul>
                     </tr>
@@ -124,7 +106,7 @@
                           <li></li>
                         </td>
                         <td>
-                            Impeccable Service: Reviews often mention our warm, knowledgeable staff and their dedication to creating unforgettable experiences for every visitor.
+                          Impeccable Service: Reviews often mention our warm, knowledgeable staff and their dedication to creating unforgettable experiences for every visitor.
                         </td>
                       </ul>
                     </tr>
@@ -135,25 +117,26 @@
                           <li></li>
                         </td>
                         <td>
-                            Stunning Location: Located in the scenic Ciwidey area, our resorts offer a peaceful retreat in nature, making it the perfect getaway for nature lovers and eco-tourists.
+                          Stunning Location: Located in the scenic Ciwidey area, our resorts offer a peaceful retreat in nature, making it the perfect getaway for nature lovers and eco-tourists.
                         </td>
                       </ul>
                     </tr>
                   </table>
                 </div>
               </div>
-          </div>
-          
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+            </div>
           </div>
 
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
+          </div>
+
+        </div>
+        <!-- END MAIN -->
+
+        <?php include '../footer.php' ?>
+
+      </div>
     </div>
-    <!-- END MAIN -->
-
-    <?php include '../footer.php'?>
-
-  </div>
 </body>
+
 </html>
