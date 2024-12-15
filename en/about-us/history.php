@@ -20,7 +20,7 @@
 
         <div class="mx-0">
           <div class="px-8">
-            <div class="text-left">
+            <div class="text-left mt-6">
               <span class="font-bold text-[40px]">History</span>
             </div>
 

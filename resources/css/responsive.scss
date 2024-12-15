@@ -27,6 +27,31 @@ body {
                     }
                 }
             }
+
+            .project-planning {
+                display: grid;
+                grid-template-columns: 1fr;
+
+                @media screen and (min-width: 1280px) {
+                    grid-template-columns: 60% 1fr;
+                }
+
+                .planning {
+                    padding: 2em 0;
+                    display: grid;
+                    text-align: left;
+                    align-items: center;
+                    grid-template-columns: 100px 1fr;
+
+                    @media screen and (min-width: 1280px) {
+                        padding: 0;
+                    }
+
+                    @media screen and (min-width: 362px) {
+                        grid-template-columns: 200px 1fr;
+                    }
+                }
+            }
         }
     }
 }

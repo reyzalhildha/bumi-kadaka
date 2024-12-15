@@ -1,257 +1,204 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php'?>
+<?php include '../header.php' ?>
 
 <body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php'?>
+  <?php include '../nav.php' ?>
 
-  <div style="margin: auto;" 
-       class="w-[1440px]
-              lg:w-[1000px] lg:ml-[0px]
-              xl:w-[1280px]
-              min-[412px]:w-[412px]
-              min-[390px]:w-[390px]
-              min-[320px]:w-[320px]">
-    
-    <!-- MAIN -->
-    <div class="flex w-full flex-col 
-                  lg:block mt-[120px]
-                  xl:block 
-                  min-[412px]:hidden 
-                  min-[390px]:hidden
-                  min-[320px]:hidden">
-        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] mt-[125px] w-[100%] h-[550px]">
+  <div class="container-kadaka">
+    <div class="content-kadaka">
+
+      <!-- MAIN -->
+      <div class="flex w-full flex-col">
+        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
-            <span class="text-white text-[30px] font-bold">About Us</span>
+          <span class="text-white text-[30px] font-bold">About Us</span>
         </div>
 
-        <div class="m-[50px]">
-          <div class="text-left">
-            <span class="font-bold text-[40px]">Vision and Mission</span>
-          </div>
-
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-            <div class="w-[100%] text-justify">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+        <div class="mx-0">
+          <div class="px-8">
+            <div class="text-left mt-6">
+              <span class="font-bold text-[40px]">Vision and Mission</span>
             </div>
-            <div class="w-[100%]
-                        lg:font-[700] lg:mt-[50px]
-                        xl:font-[700] xl:mt-[50px]">
-              <img src="/bumi-kadaka/resources/img/about-us/vision-mission.png" 
-                      class="lg:w-[100%] 
-                              lg:h-[100%]">
+
+            <div class="mt-[50px]">
+              <div class="w-full text-justify">
+                <p>
+                  PT Bumi Kadaka is a company that focuses on creating sustainable development through
+                  its operations in eco-tourism, agriculture, and real estate development.
+                  The company places a strong emphasis on environmental conservation, community empowerment,
+                  and promoting local culture, all while developing high-quality tourism and hospitality experiences.
+                  Based on its projects and core activities, the company’s vision and mission can be summarized as follows:
+                </p>
+              </div>
+              <div class="w-full mt-[50px]">
+                <img src="/bumi-kadaka/resources/img/about-us/vision-mission.png"
+                  class="w-full h-[95px] object-cover object center md:h-[374px]">
+              </div>
             </div>
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="text-left mb-[50px]">
+          <div class="px-8">
+            <div class="mt-[50px]">
+              <div class="text-left">
                 <span class="font-bold text-[40px]">Vision</span>
               </div>
-          </div>
-
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-            <div class="text-justify
-                        xl:w-[50%] xl:h-[20%]
-                        lg:w-[50%] lg:h-[20%]">
-                        <p> To pioneer a reimagined hospitality where innovation meets nature, crafting exceptional moments for our guests. Our goal is to set a new standard by seamlessly blending cutting-edge ideas with the tranquility of natural surroundings, creating unparalleled experiences in the hotel and resort industry
-                        </p>
             </div>
-            <div class="xl:w-[45%] xl:h-[20%] ml-[30px]
-                        lg:w-[45%] lg:h-[20%] ml-[30px]">
-                        <img src="/bumi-kadaka/resources/img/about-us/vision.png" 
-                        class="xl:w-[521px] xl:h-[198px] xl:object-cover
-                               lg:w-[521px] lg:h-[198px] lg:object-cover">
 
+            <div class="gap-8 flex flex-wrap mt-6 xl:flex-nowrap">
+              <div class="text-justify w-full">
+                <p> To pioneer a reimagined hospitality where innovation meets nature, crafting exceptional moments for our guests. Our goal is to set a new standard by seamlessly blending cutting-edge ideas with the tranquility of natural surroundings, creating unparalleled experiences in the hotel and resort industry
+                </p>
+              </div>
+              <div class="w-full">
+                <img src="/bumi-kadaka/resources/img/about-us/vision.png"
+                  class="w-full h-[95px] object-cover object center md:h-[374px]">
+
+              </div>
             </div>
           </div>
 
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="text-left mb-[50px]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
+          </div>
+
+          <div class="sm:px-8">
+            <div class="mt-[50px]">
+              <div class="text-left mb-[30px] px-8 sm:px-0">
                 <span class="font-bold text-[40px]">Mission</span>
               </div>
+            </div>
+
+            <div class="gap-8 flex-wrap justify-center mt-[50px] hidden sm:flex">
+              <img src="/bumi-kadaka/resources/img/about-us/nature.png"
+                class="w-auto">
+              <img src="/bumi-kadaka/resources/img/about-us/ordinary.png"
+                class="w-auto">
+              <img src="/bumi-kadaka/resources/img/about-us/sustain.png"
+                class="w-auto">
+              <img src="/bumi-kadaka/resources/img/about-us/inspire.png"
+                class="w-auto">
+              <img src="/bumi-kadaka/resources/img/about-us/cultivate.png"
+                class="w-auto">
+            </div>
+
+            <div class="missions gap-4 grid sm:hidden">
+              <div class="relative">
+                <img src="/bumi-kadaka/resources/img/about-us/missions-1.jpg"
+                  class="w-full h-[7em] object-cover object-center brightness-50">
+                <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                  <p>Connect With Nature</p>
+                </div>
+              </div>
+              <div class="relative">
+                <img src="/bumi-kadaka/resources/img/about-us/missions-2.jpg"
+                  class="w-full h-[7em] object-cover object-center brightness-50">
+                <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                  <p>Disrupt the Ordinary</p>
+                </div>
+              </div>
+              <div class="relative">
+                <img src="/bumi-kadaka/resources/img/about-us/missions-3.jpg"
+                  class="w-full h-[7em] object-cover object-center brightness-50">
+                <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                  <p>Sustainability</p>
+                </div>
+              </div>
+              <div class="relative">
+                <img src="/bumi-kadaka/resources/img/about-us/missions-4.jpg"
+                  class="w-full h-[7em] object-cover object-center brightness-50">
+                <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                  <p>Inspire Discovery</p>
+                </div>
+              </div>
+              <div class="relative">
+                <img src="/bumi-kadaka/resources/img/about-us/missions-5.jpg"
+                  class="w-full h-[7em] object-cover object-center brightness-50">
+                <div class="w-full h-full absolute top-0 flex items-center justify-center">
+                  <p>Cultivate Passionate Teams</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="xl:w-[460px]
-                          lg:w-[460px]">
-                  <img src="/bumi-kadaka/resources/img/about-us/nature.png" 
-                       class="xl:w-[400px]
-                              lg:w-[400px]">
-              </div>
-              
-              <div class="xl:w-[460px] xl:ml-[20px]
-                          lg:w-[460px] lg:ml-[20px]">
-                  <img src="/bumi-kadaka/resources/img/about-us/ordinary.png" 
-                       class="xl:w-[400px]
-                              lg:w-[400px]">
-              </div>
-
-              <div class="xl:w-[460px] xl:ml-[20px]
-                          lg:w-[460px] lg:ml-[20px]">
-                  <img src="/bumi-kadaka/resources/img/about-us/sustain.png" 
-                       class="xl:w-[400px]
-                              lg:w-[400px]">
-              </div>
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="xl:w-[50%]
-                          lg:w-[50%]">
-                  <img src="/bumi-kadaka/resources/img/about-us/inspire.png" 
-                       class="xl:w-[400px] xl:mt-[auto] xl:mr-[10px] xl:mt-[auto] xl:ml-[auto]
-                              lg:w-[400px] xl:mt-[auto] xl:mr-[10px] xl:mt-[auto] xl:ml-[auto]">
-              </div>
-              
-              <div class="xl:w-[50%] xl:ml-[0px]
-                          lg:w-[50%] lg:ml-[0px]">
-                  <img src="/bumi-kadaka/resources/img/about-us/cultivate.png" 
-                       class="xl:w-[400px] xl:mt-[auto] xl:mr-[auto] xl:mt-[auto] xl:ml-[10px]
-                              lg:w-[400px] xl:mt-[auto] xl:mr-[auto] xl:mt-[auto] xl:ml-[10px]">
-              </div>
-          </div>
-
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
-          </div>
-
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="text-left mb-[50px]">
+          <div class="px-8">
+            <div class="mt-[50px]">
+              <div class="text-left">
                 <span class="font-bold text-[40px]">Feature Outlook</span>
               </div>
-          </div>
+            </div>
 
-          <div class="text-justify font-bold
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
+            <div class="text-justify mt-[30px]">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The future outlook for <b>PT Bumi Kadaka</b> appears promising, especially considering the growing
+                global and local trends toward eco-tourism, sustainable development, and responsible business practices.
+                Given the company’s current focus on sustainable tourism, agriculture, and real estate
+                development—particularly in the <b>Ciwidey</b> region of West Java—<b>PT Bumi Kadaka</b> is well-positioned
+                to capitalize on several key opportunities in the evolving tourism and hospitality sectors in <b>Indonesia</b>.
+                Here are some insights into the company’s future prospects:
               </p>
-          </div>
-
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-            <div class="xl:w-[55%]
-                        lg:w-[55%]">
-              <div class="font-[700] text-left
-                          xl:text-[40px]
-                          lg:text-[40px]">
-                <label>PROJECT PLANNING</label>
-              </div>
-
-              <div class="mt-[20px] text-left flex">
-                <div class="mr-[50px] font-[600] 
-                            xl:text-[32px] xl:h-[80px] xl:mt-[15px] 
-                            lg:text-[32px] xl:h-[80px] xl:mt-[15px]">
-                  <label>2025</label>
-                </div>
-                <div class="mr-[50px]
-                            xl:xl:h-[80px] xl:mt-[25px] xl:text-[20px]
-                            lg:xl:h-[80px] lg:mt-[25px] lg:text-[20px]">
-                  <label>GO PUBLIC</label>
-                </div>
-              </div>
-
-              <div class="mt-[5px] w-[100%]" style="border-bottom : 2px solid black"></div>
-
-              <div class="mt-[20px] text-left flex">
-                <div class="mr-[50px] font-[600] 
-                            xl:text-[32px] xl:h-[80px] xl:mt-[15px] xl:w-[80px]
-                            lg:text-[32px] xl:h-[80px] xl:mt-[15px] lg:w-[80px]">
-                  <label>2026</label>
-                </div>
-                <div class="mr-[50px]
-                            xl:xl:h-[80px] xl:mt-[25px] xl:text-[20px]
-                            lg:xl:h-[80px] lg:mt-[25px] lg:text-[20px]">
-                  <label>Extended buliding for 58 rooms</label>
-                </div>
-              </div>
-
-              <div class="mt-[20px] w-[100%]" style="border-bottom : 2px solid black"></div>
-
-              <div class="mt-[20px] text-left flex">
-                <div class="mr-[50px] font-[600] 
-                            xl:text-[32px] xl:h-[80px] xl:mt-[15px] xl:w-[80px] 
-                            lg:text-[32px] xl:h-[80px] xl:mt-[15px] lg:w-[80px]">
-                  <label>2027</label>
-                </div>
-                <div class="mr-[50px]
-                            xl:xl:h-[80px] xl:mt-[10px] xl:text-[20px]
-                            lg:xl:h-[80px] lg:mt-[10px] lg:text-[20px]">
-                  <label>An educational recreational area, is projected to be completed and operational.</label>
-                </div>
-              </div>
-
-              <div class="mt-[30px] w-[100%]" style="border-bottom : 2px solid black"></div>
-
-              <div class="mt-[20px] text-left flex">
-                <div class="mr-[50px] font-[600] 
-                            xl:text-[32px] xl:h-[80px] xl:mt-[15px] xl:w-[80px]
-                            lg:text-[32px] xl:h-[80px] xl:mt-[15px] lg:w-[80px]">
-                  <label>2028 to 2023</label>
-                </div>
-                <div class="mr-[50px]
-                            xl:xl:h-[80px] xl:mt-[60px] xl:text-[20px]
-                            lg:xl:h-[80px] lg:mt-[60px] lg:text-[20px]">
-                  <label>During this period, the company aims to add 2 (two) branches to Forest Hills Hotel</label>
-                </div>
-              </div>
-
-              <div class="mt-[75px] w-[100%]" style="border-bottom : 2px solid black"></div>
-
             </div>
-            
-            <div class="xl:w-[45%] xl:ml-[50px]
-                        lg:w-[45%] lg:ml-[50px]">
+
+            <div class="project-planning gap-8 mt-8">
+              <div class="w-full flex justify-start">
+                <div class="w-full grid">
+                  <div class="text-left flex items-center">
+                    <h1>PROJECT PLANNING</h1>
+                  </div>
+                  <div class="flex items-center p-0 border-b-2 border-[#4D4D4D]">
+                    <div class="planning">
+                      <h2>2025</h2>
+                      <p>GO PUBLIC</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center p-0 border-b-2 border-[#4D4D4D]">
+                    <div class="planning">
+                      <h2>2026</h2>
+                      <p>Extended buliding for 58 rooms</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center p-0 border-b-2 border-[#4D4D4D]">
+                    <div class="planning">
+                      <h2>2027</h2>
+                      <p>An educational recreational area, is projected to be completed and operational.</p>
+                    </div>
+                  </div>
+                  <div class="flex items-center p-0 border-b-2 border-[#4D4D4D]">
+                    <div class="planning">
+                      <h2>2028 to 2029</h2>
+                      <p>During this period, the company aims to add 2 (two) branches to Forest Hills Hotel</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full hidden xl:flex xl:justify-end">
                 <img src="/bumi-kadaka/resources/img/about-us/present.png" alt=""
-                     class="xl:h-[725px]
-                            lg:h-[725px]">
+                  class="h-[542px]">
+              </div>
             </div>
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
         </div>
 
+      </div>
+      <!-- END MAIN -->
+
+      <?php include '../footer.php' ?>
+
     </div>
-    <!-- END MAIN -->
-
-    <?php include '../footer.php'?>
-
   </div>
 </body>
+
 </html>

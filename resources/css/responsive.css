@@ -27,4 +27,30 @@ body .container-kadaka .content-kadaka .chief-officer .officer {
     justify-items: unset;
     grid-template-columns: 396px 1fr;
   }
+}
+body .container-kadaka .content-kadaka .project-planning {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 1280px) {
+  body .container-kadaka .content-kadaka .project-planning {
+    grid-template-columns: 60% 1fr;
+  }
+}
+body .container-kadaka .content-kadaka .project-planning .planning {
+  padding: 2em 0;
+  display: grid;
+  text-align: left;
+  align-items: center;
+  grid-template-columns: 100px 1fr;
+}
+@media screen and (min-width: 1280px) {
+  body .container-kadaka .content-kadaka .project-planning .planning {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 362px) {
+  body .container-kadaka .content-kadaka .project-planning .planning {
+    grid-template-columns: 200px 1fr;
+  }
 }/*# sourceMappingURL=responsive.css.map */
