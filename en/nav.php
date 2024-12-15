@@ -132,7 +132,7 @@
         </li> -->
         <li class="p-4 
                     lg:px-8">
-            <a class="text-slate-800 hover:text-slate-900 font-normal" href="#">Contact Us</a>
+            <a class="text-slate-800 hover:text-slate-900 font-normal" href="/bumi-kadaka/en/contact-us.php">Contact Us</a>
         </li>
   </ul>
     </div>

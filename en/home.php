@@ -96,18 +96,16 @@
       <!-- END DE LIGHT -->
 
       <!-- ABOUT US -->
-      <div class="flex w-full flex-col hidden
-                  lg:block 
-                  xl:block ">
-        <div class="mt-[50px]">
+      <div class="flex w-full flex-col mt-8 hidden lg:block">
+        <div class="mx-[50px]">
           <div class="items-center">
-            <div class="ml-[50px] flex">
+            <div class="flex items-center">
               <img class="w-[735px] h-[571px] 
                           lg:w-[500px] lg:h-[auto]
                           xl:w-[650px] xl:h-[auto]"
                 src="./resources/img/home/about-us-home.png" alt="">
 
-              <div class="pl-[50px] mt-[60px] w-[40%] lg:mt-[0px;]">
+              <div class="pl-[50px] mt-[60px] w-full lg:mt-[0px;]">
                 <div class="text-left 
                           lg:mt-[30px]
                           xl:mt-[70px]">
@@ -253,7 +251,7 @@
                   xl:block">
         <div class="mt-[80px]">
           <div class="flex items-center justify-center">
-            <div class="pl-[50px] mt-[60px] w-[40%] 
+            <div class="pr-[50px] mt-[60px] w-[40%] 
                         lg:w-[45%] lg:mt-[0px]
                         xl:w-[40%] xl:mt-[30px]">
               <div class="text-left">
@@ -275,10 +273,8 @@
                 <a href="">Download Annual Report</a>
               </div>
             </div>
-            <div class="ml-[50px;] lg:ml-[75px]">
-              <img class="w-[735px] h-[571px] 
-                          lg:w-[400px] lg:h-[auto]
-                          xl:w-[610px] xl:h-[auto]" src="./resources/img/home/annual-report.png" alt="">
+            <div class="m-0">
+              <img class="w-[500px] h-auto" src="./resources/img/home/annual-report.png" alt="">
             </div>
           </div>
         </div>
