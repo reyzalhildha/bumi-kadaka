@@ -6,7 +6,7 @@
 
   <?php include 'nav.php' ?>
   <div class="container-kadaka">
-    <div class="content-kadaka">
+    <div class="content-kadaka home">
 
       <!-- SLIDER -->
       <div class="flex w-full flex-col hidden
@@ -78,7 +78,7 @@
       <div class="flex w-full flex-col hidden
                     lg:block 
                     xl:block">
-        <div class="mt-[20px]">
+        <div class="mt-[20px] px-2">
           <span class="text-[24px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
@@ -88,7 +88,7 @@
                     lg:hidden 
                     xl:hidden 
                     w-full m-0">
-        <div class="mt-[10px]">
+        <div class="mt-[10px] px-2">
           <span class="text-[11px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>

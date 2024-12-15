@@ -8,12 +8,18 @@ body {
             margin: 0;
             padding-top: 6rem;
 
-            @media screen and (min-width: 1536px) {
-                width: 1536px;
-                padding-top: 10rem;
-            }
             @media screen and (min-width: 1024px) {
                 padding-top: 8rem;
+            }
+
+            @media screen and (min-width: 1536px) {
+                width: 1536px;
+            }
+
+            &.home {
+                @media screen and (min-width: 1536px) {
+                    padding-top: 10rem;
+                }
             }
 
             .chief-officer {
