@@ -6,7 +6,7 @@
 
   <?php include 'nav.php' ?>
   <div class="container-kadaka">
-    <div class="content-kadaka">
+    <div class="content-kadaka home">
 
       <!-- SLIDER -->
       <div class="flex w-full flex-col hidden
@@ -15,9 +15,7 @@
         <div id="default-carousel"
           data-carousel="slide"
           class="relative w-full xl:mt-[-33px]">
-          <div class="relative h-56 overflow-hidden rounded-lg 
-                            xl:h-[598px]
-                            lg:h-[340px]">
+          <div class="relative h-[598px] overflow-hidden rounded-lg">
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
               <img src="./resources/img/slider/slider-1.png"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
@@ -66,10 +64,7 @@
                 <span class="text-white text-[14px] font-bold">Sadesa Restaurant</span>
               </div>
               <div class="w-full" style="padding: 0 1em">
-                <p class="text-white text-[9px] 
-                            min-[412px]:w-[392px]
-                            min-[390px]:w-[370px]
-                            min-[320px]:w-[300px]">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
+                <p class="text-white text-[9px] w-full">Sadesa is a restaurant at Forest Hills Hotel Ciwidey. Located on the 2nd floor of the Hotel, you can enjoy breakfast, lunch, dinner or a romantic dinner with views of beautiful mountains, rice fields and flowing rivers.</p>
               </div>
             </div>
           </div>
@@ -83,7 +78,7 @@
       <div class="flex w-full flex-col hidden
                     lg:block 
                     xl:block">
-        <div class="mt-[20px]">
+        <div class="mt-[20px] px-2">
           <span class="text-[24px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
@@ -93,7 +88,7 @@
                     lg:hidden 
                     xl:hidden 
                     w-full m-0">
-        <div class="mt-[10px]">
+        <div class="mt-[10px] px-2">
           <span class="text-[11px] de-light">“ DELIGHT IN THE GLORIOUS OF NATURE COMFORTABLY ”</span>
         </div>
       </div>
@@ -101,18 +96,16 @@
       <!-- END DE LIGHT -->
 
       <!-- ABOUT US -->
-      <div class="flex w-full flex-col hidden
-                  lg:block 
-                  xl:block ">
-        <div class="mt-[50px]">
+      <div class="flex w-full flex-col mt-8 hidden lg:block">
+        <div class="mx-[50px]">
           <div class="items-center">
-            <div class="ml-[50px] flex">
+            <div class="flex items-center">
               <img class="w-[735px] h-[571px] 
                           lg:w-[500px] lg:h-[auto]
                           xl:w-[650px] xl:h-[auto]"
                 src="./resources/img/home/about-us-home.png" alt="">
 
-              <div class="pl-[50px] mt-[60px] w-[40%] lg:mt-[0px;]">
+              <div class="pl-[50px] mt-[60px] w-full lg:mt-[0px;]">
                 <div class="text-left 
                           lg:mt-[30px]
                           xl:mt-[70px]">
@@ -258,7 +251,7 @@
                   xl:block">
         <div class="mt-[80px]">
           <div class="flex items-center justify-center">
-            <div class="pl-[50px] mt-[60px] w-[40%] 
+            <div class="pr-[50px] mt-[60px] w-[40%] 
                         lg:w-[45%] lg:mt-[0px]
                         xl:w-[40%] xl:mt-[30px]">
               <div class="text-left">
@@ -280,10 +273,8 @@
                 <a href="">Download Annual Report</a>
               </div>
             </div>
-            <div class="ml-[50px;] lg:ml-[75px]">
-              <img class="w-[735px] h-[571px] 
-                          lg:w-[400px] lg:h-[auto]
-                          xl:w-[610px] xl:h-[auto]" src="./resources/img/home/annual-report.png" alt="">
+            <div class="m-0">
+              <img class="w-[500px] h-auto" src="./resources/img/home/annual-report.png" alt="">
             </div>
           </div>
         </div>

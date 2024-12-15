@@ -1,16 +1,60 @@
+body .container-kadaka {
+  display: flex;
+  justify-content: center;
+}
 body .container-kadaka .content-kadaka {
   width: 100%;
-  margin: auto;
+  margin: 0;
   padding-top: 6rem;
-}
-@media screen and (min-width: 1536px) {
-  body .container-kadaka .content-kadaka {
-    width: 1536px;
-    padding-top: 10rem;
-  }
 }
 @media screen and (min-width: 1024px) {
   body .container-kadaka .content-kadaka {
     padding-top: 8rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  body .container-kadaka .content-kadaka {
+    width: 1536px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  body .container-kadaka .content-kadaka.home {
+    padding-top: 10rem;
+  }
+}
+body .container-kadaka .content-kadaka .chief-officer .officer {
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  body .container-kadaka .content-kadaka .chief-officer .officer {
+    justify-items: unset;
+    grid-template-columns: 396px 1fr;
+  }
+}
+body .container-kadaka .content-kadaka .project-planning {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 1280px) {
+  body .container-kadaka .content-kadaka .project-planning {
+    grid-template-columns: 60% 1fr;
+  }
+}
+body .container-kadaka .content-kadaka .project-planning .planning {
+  padding: 2em 0;
+  display: grid;
+  text-align: left;
+  align-items: center;
+  grid-template-columns: 100px 1fr;
+}
+@media screen and (min-width: 1280px) {
+  body .container-kadaka .content-kadaka .project-planning .planning {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 362px) {
+  body .container-kadaka .content-kadaka .project-planning .planning {
+    grid-template-columns: 200px 1fr;
   }
 }/*# sourceMappingURL=responsive.css.map */

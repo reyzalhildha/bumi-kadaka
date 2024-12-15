@@ -1,16 +1,62 @@
 body {
     .container-kadaka {
+        display: flex;
+        justify-content: center;
+
         .content-kadaka {
             width: 100%;
-            margin: auto;
+            margin: 0;
             padding-top: 6rem;
+
+            @media screen and (min-width: 1024px) {
+                padding-top: 8rem;
+            }
 
             @media screen and (min-width: 1536px) {
                 width: 1536px;
-                padding-top: 10rem;
             }
-            @media screen and (min-width: 1024px) {
-                padding-top: 8rem;
+
+            &.home {
+                @media screen and (min-width: 1536px) {
+                    padding-top: 10rem;
+                }
+            }
+
+            .chief-officer {
+                .officer {
+                    justify-items: center;
+                    grid-template-columns: 1fr;
+
+                    @media screen and (min-width: 768px) {
+                        justify-items: unset;
+                        grid-template-columns: 396px 1fr;
+                    }
+                }
+            }
+
+            .project-planning {
+                display: grid;
+                grid-template-columns: 1fr;
+
+                @media screen and (min-width: 1280px) {
+                    grid-template-columns: 60% 1fr;
+                }
+
+                .planning {
+                    padding: 2em 0;
+                    display: grid;
+                    text-align: left;
+                    align-items: center;
+                    grid-template-columns: 100px 1fr;
+
+                    @media screen and (min-width: 1280px) {
+                        padding: 0;
+                    }
+
+                    @media screen and (min-width: 362px) {
+                        grid-template-columns: 200px 1fr;
+                    }
+                }
             }
         }
     }

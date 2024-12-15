@@ -5,6 +5,7 @@
   <link rel="icon" href="/bumi-kadaka/resources/img/ico/ico-bumi-kadaka.png" sizes="32x32">
   <link rel="stylesheet" href="/bumi-kadaka/resources/css/main.css">
   <link rel="stylesheet" href="/bumi-kadaka/resources/css/responsive.css">
+  <link rel="stylesheet" href="/bumi-kadaka/resources/css/font-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">

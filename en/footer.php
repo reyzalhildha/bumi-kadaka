@@ -35,14 +35,14 @@
 </div>
 
 <div class="flex w-full flex-col">
-  <div class="bg-[#307060] h-[50px] text-left w-full flex items-center">
-    <div class="w-full 
+  <div class="bg-[#307060] h-auto text-left w-full flex items-center">
+    <div class="w-full my-[1em] px-[2em]
                 grid justify-center text-center 
                 md:flex md:justify-between md:text-left">
-      <div class="px-[2em]">
+      <div class="p-0">
         <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
       </div>
-      <div class="px-[2em] flex gap-[1em]">
+      <div class="gap-0 grid grid-cols-1 justify-items-center sm:grid-cols-3">
         <span class="text-white text-[14px]">Accessibility</span>
         <span class="text-white text-[14px]">Legal</span>
         <span class="text-white text-[14px]">Privacy Statement</span>

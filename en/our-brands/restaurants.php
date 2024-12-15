@@ -1,62 +1,55 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php'?>
+<?php include '../header.php' ?>
 
 <body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php'?>
+  <?php include '../nav.php' ?>
 
-  <div style="margin: auto;" 
-       class="w-[1440px]
-              lg:w-[1000px] lg:ml-[0px]
-              xl:w-[1280px]
-              min-[412px]:w-[412px]
-              min-[390px]:w-[390px]
-              min-[320px]:w-[320px]">
-    
-    <!-- MAIN -->
-    <div class="flex w-full flex-col 
-                  lg:block mt-[120px]
-                  xl:block 
-                  min-[412px]:hidden 
-                  min-[390px]:hidden
-                  min-[320px]:hidden">
-        <div class="bg-[url('../../resources/img/our-brands/restaurants.png')] mt-[125px] w-[100%] h-[500px]">
+  <div class="container-kadaka">
+    <div class="content-kadaka">
+
+
+      <!-- MAIN -->
+      <div class="flex w-full flex-col">
+        <div class="bg-[url('../../resources/img/our-brands/restaurants.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
-        <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
-            <span class="text-white text-[30px] font-bold">Restaurants</span>
+        <div class="w-[100%] text-left mt-[-90px] h-auto p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
+          <span class="text-white text-[30px] font-bold">Restaurants</span>
         </div>
 
-        <div class="m-[50px]">
-          <div class="text-left">
-            <span class="font-bold text-[40px]">Restaurants</span>
-          </div>
+        <div class="mx-0">
+          <div class="px-8">
 
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-            <div class="w-[45%]">
-              <img src="/bumi-kadaka/resources/img/our-brands/restaurants-1.png" 
-                      class="lg:w-[457px] lg:h-[396px]">
+            <div class="text-left">
+              <span class="font-bold text-[40px]">Restaurants</span>
             </div>
-            <div class="w-[55%] text-justify">
-              <p>
-                PT Bumi Kadaka, established in 2013 in Bandung, Indonesia, focuses on hotel, resort, culinary, and tourism services. The company combines local uniqueness, natural beauty, technology, and sustainable practices to drive innovation in the hospitality and tourism industry. 
-              </p>
-              
-              <br>
-              
-              <p>
-                Sit suspendisse ultricies et phasellus tincidunt. Urna morbi felis nisl pharetra suspendisse nec malesuada ipsum augue. Sapien lacus vestibulum elementum mi tristique. Gravida elit massa vitae integer in pulvinar quis. Aliquet pharetra elementum amet bibendum in. Tellus dictum sagittis aliquet pretium ipsum. Viverra nulla eleifend tellus ut quis at.
-              </p>
-            </div>
-          </div>
 
-          <div class="flex
-                      xl:mt-[50px]
-                      lg:mt-[50px]">
-              <div class="w-[55%] text-justify mr-[60px]">
+            <div class="grid lg:flex mt-[50px]">
+              <div class="w-full hidden lg:block">
+                <img src="/bumi-kadaka/resources/img/our-brands/restaurants-1.png"
+                  class="w-full object-cover object-center h-[576px]">
+              </div>
+              <div class="w-full text-justify px-0 lg:pl-8">
+                <p>
+                  PT Bumi Kadaka, established in 2013 in Bandung, Indonesia, focuses on hotel, resort, culinary, and tourism services. The company combines local uniqueness, natural beauty, technology, and sustainable practices to drive innovation in the hospitality and tourism industry.
+                </p>
+
+                <br>
+
+                <p>
+                  Sit suspendisse ultricies et phasellus tincidunt. Urna morbi felis nisl pharetra suspendisse nec malesuada ipsum augue. Sapien lacus vestibulum elementum mi tristique. Gravida elit massa vitae integer in pulvinar quis. Aliquet pharetra elementum amet bibendum in. Tellus dictum sagittis aliquet pretium ipsum. Viverra nulla eleifend tellus ut quis at.
+                </p>
+              </div>
+              <div class="w-full block lg:hidden mt-6">
+                <img src="/bumi-kadaka/resources/img/our-brands/restaurants-1.png"
+                  class="w-full h-[300px] object-cover object-center">
+              </div>
+            </div>
+
+            <div class="grid lg:flex mt-[50px]">
+              <div class="w-full text-justify px-0 lg:pr-8">
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Quis libero mi dictumst egestas mattis pretium habitasse non. Neque mauris lorem gravida et nec lacus aenean feugiat vestibulum. Tincidunt porta aenean mi diam mi in. Integer eget mauris purus placerat. Non ut amet vel lectus et sed ut integer purus. Et consectetur vitae commodo tellus eu metus tempus sagittis ultrices. In eu ac eget ac. Condimentum faucibus facilisis vitae at volutpat nunc.
                 </p>
@@ -65,93 +58,50 @@
                   Sit suspendisse ultricies et phasellus tincidunt. Urna morbi felis nisl pharetra suspendisse nec malesuada ipsum augue. Sapien lacus vestibulum elementum mi tristique. Gravida elit massa vitae integer in pulvinar quis. Aliquet pharetra elementum amet bibendum in. Tellus dictum sagittis aliquet pretium ipsum. Viverra nulla eleifend tellus ut quis at.
                 </p>
               </div>
-              <div class="w-[40%]">
-                <img src="/bumi-kadaka/resources/img/our-brands/restaurants-2.png" 
-                      class="lg:w-[457px]">
-            </div>        
+              <div class="w-full mt-6 lg:mt-0 justify-items-end">
+                <img src="/bumi-kadaka/resources/img/our-brands/restaurants-2.png"
+                  class="w-full h-[300px] object-cover object-center lg:h-[576px]">
+              </div>
+            </div>
           </div>
 
-          <div class="bg-[#307060]
-                      xl:mt-[50px] xl:h-[27px] xl:w-[100%]
-                      lg:mt-[50px] lg:h-[27px] lg:w-[100%]">
+          <div class="bg-[#307060] h-[27px] mt-[50px] w-full">
           </div>
 
-          <div class="xl:mt-[50px]
-                      lg:mt-[50px]">
-              
+        </div>
+      </div>
+
+      <div class="flex w-full flex-col">
+        <div class="my-[50px] bg-[#EFAE93] w-full">
+          <div class="m-[50px] h-auto">
+            <div class="pt-[10px]">
+              <div class="w-[100%] text-left mt-[20px]">
+                <span class="text-white text-[51px] font-[700] lg:text-[34px] break-all">Gallery</span>
+              </div>
+            </div>
+
+            <div class="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" align="center">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-1.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-2.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-3.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-4.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-5.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/resto-6.png" alt="" class="w-full h-[250px] object-cover">
+            </div>
           </div>
         </div>
-    </div>
 
-    <div class="flex w-full flex-col 
-                  lg:block
-                  xl:block 
-                  min-[412px]:hidden 
-                  min-[390px]:hidden
-                  min-[320px]:hidden">
-      <div class="mt-[90px] bg-[#EFAE93] 
-                    lg:w-[100%] 
-                    xl:w-[100%]">
-        <div class="m-[50px] h-[730px]">
-          <div class="pt-[10px]">
-            <div class="w-[100%] text-left mt-[20px]">
-              <span class="text-white text-[51px] font-[700]
-                           lg:text-[34px]">Gallery</span>
-            </div>
-          </div>
-
-          <div class="flex" align="center">
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-1.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-2.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-3.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-          </div>
-
-          <div class="flex" align="center">
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-4.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-5.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-
-            <div class="w-[100%] text-left mt-[40px]">
-              <div class="lg:w-[249px] 
-                          xl:w-[380px]">
-                <img src="/bumi-kadaka/resources/img/our-brands/resto-6.png" alt="" class="w-[380px] h-[250px] object-cover">
-              </div>
-            </div>
-          </div>
+        <div class="bg-[#307060] h-[27px] w-full">
         </div>
       </div>
     </div>
-    <!-- END MAIN -->
+  </div>
+  <!-- END MAIN -->
 
-    <?php include '../footer.php'?>
+  <?php include '../footer.php' ?>
 
   </div>
+  </div>
 </body>
+
 </html>
