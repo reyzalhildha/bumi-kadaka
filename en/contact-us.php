@@ -60,7 +60,7 @@
                 </div>
               </div>
 
-              <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
+              <!-- <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
                 <div class="w-[45px]">
                   <img src="/bumi-kadaka/resources/img/contact-us/whatsapp.png">
                 </div>
@@ -69,7 +69,7 @@
                     +62 821-2727-6585
                   </p>
                 </div>
-              </div>
+              </div> -->
 
               <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
                 <div class="w-[45px]">
@@ -86,28 +86,27 @@
           <div class="w-full">
             <div class="p-[40px]">
               <div class="rounded-[10px] color-[#FFFFFF] border-form">
-                <form>
+                <form id="emailForm" onsubmit="event.preventDefault(); sendEmail();">
                   <div class="flex p-[30px]">
-                    <input class="rounded-[10px] p-[10px] border-form w-[50%]" type="text" name="nama" placeholder="First Name">
+                    <input class="rounded-[10px] p-[10px] border-form w-[50%]" type="text" name="firstName" placeholder="First Name" required>
 
-                    <input class="rounded-[10px] p-[10px] ml-[20px] border-form w-[50%]" type="text" name="nama" placeholder="Last Name*">
+                    <input class="rounded-[10px] p-[10px] ml-[20px] border-form w-[50%]" type="text" name="lastName" placeholder="Last Name" required>
                   </div>
 
                   <div class="pl-[30px] pr-[30px]">
-                    <input class="rounded-[10px] p-[10px] border-form w-[100%]" type="text" name="email" placeholder="Email*">
+                    <input class="rounded-[10px] p-[10px] border-form w-[100%]" type="text" name="subject" placeholder="Subject" required>
                   </div>
 
                   <div class="pl-[30px] pr-[30px] mt-[30px]">
-                    <input class="rounded-[10px] p-[10px] border-form w-[100%]" type="text" name="email" placeholder="Email*">
+                    <input class="rounded-[10px] p-[10px] border-form w-[100%]" type="text" name="email" placeholder="Email" required>
                   </div>
 
                   <div class="pl-[30px] pr-[30px] mt-[30px]">
-                    <textarea class="rounded-[10px] p-[10px] border-form w-[100%]" rows="5">
-                    </textarea>
+                    <textarea class="rounded-[10px] p-[10px] border-form w-[100%]" id="message" name="message" rows="5" placeholder="Message" required></textarea>
                   </div>
 
                   <div class="pl-[30px] pr-[30px] mt-[30px] mb-[30px]">
-                    <input type="button" value="Send Message" class="bg-[#307060] text-white w-[100%] p-[15px] rounded-[10px]">
+                    <input type="submit" value="Send Message" class="bg-[#307060] text-white w-[100%] p-[15px] rounded-[10px] hover:cursor-pointer">
                   </div>
                 </form>
               </div>

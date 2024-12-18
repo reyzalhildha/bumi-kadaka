@@ -9,24 +9,30 @@
     <div class="content-kadaka home">
 
       <!-- SLIDER -->
-      <div class="flex w-full flex-col hidden
-                    lg:block 
-                    xl:block ">
+      <div class="flex w-full flex-col">
         <div id="default-carousel"
           data-carousel="slide"
           class="relative w-full xl:mt-[-33px]">
-          <div class="relative h-[598px] overflow-hidden rounded-lg">
+          <!-- <div class="relative h-[598px] overflow-hidden rounded-lg"> -->
+          <div class="relative overflow-hidden rounded-lg 
+                      h-[202px] min-[461px]:h-[243px] min-[557px]:h-[320px] min-[925px]:h-[460px] 
+                      min-[1125px]:h-[517px] min-[1293px]:h-[598px]">
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-              <img src="./resources/img/slider/slider-1.png"
+              <img src="./resources/img/slider/slider-1a.png"
+                class="absolute hidden w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+                        lg:w-[100%] min-[925px]:block">
+              <img src="./resources/img/slider/slider-mobile-1a.png"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                        lg:w-[100%]">
+                        lg:w-[100%] min-[925px]:hidden">
             </div>
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-              <img src="./resources/img/slider/slider-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                        lg:w-[100%]">
+              <img src="./resources/img/slider/slider-2.png" class="absolute hidden w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+                        lg:w-[100%] min-[925px]:block">
+              <img src="./resources/img/slider/slider-mobile-2a.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+                        lg:w-[100%] min-[925px]:hidden">
             </div>
           </div>
-          <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer mt-[-12px] mr-[40px]">
+          <div class="absolute top-0 end-0 z-30 flex items-end justify-end h-full cursor-pointer mt-[-12px] mr-[40px] hidden">
             <button type="button" class="group focus:outline-none" data-carousel-next>
               <span class="inline-flex items-center justify-center w-[43px] h-[34px] bg-white/30 dark:bg-[#F1AE93] group-hover:bg-white/50 dark:group-hover:bg-[#F1AE93] group-focus:outline-none">
                 <svg class="w-4 h-4 text-white dark:text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -46,13 +52,8 @@
         </div>
       </div>
 
-      <!-- MOBILE -->
-      <div class="flex w-full flex-col 
-                    lg:hidden 
-                    xl:hidden 
-                    min-[412px]:block
-                    min-[390px]:block
-                    min-[320px]:block">
+      <!-- MOBILE // di hidden dulu -->
+      <div class="flex w-full flex-col hidden">
         <div class="relative">
           <img src="./resources/img/slider/slider-image-1.png"
             class="w-full h-[200px] min-[768px]:h-[300px] object-cover">

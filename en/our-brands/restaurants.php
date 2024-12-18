@@ -51,7 +51,7 @@
             <div class="grid lg:flex mt-[50px]">
               <div class="w-full text-justify px-0 lg:pr-8">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Quis libero mi dictumst egestas mattis pretium habitasse non. Neque mauris lorem gravida et nec lacus aenean feugiat vestibulum. Tincidunt porta aenean mi diam mi in. Integer eget mauris purus placerat. Non ut amet vel lectus et sed ut integer purus. Et consectetur vitae commodo tellus eu metus tempus sagittis ultrices. In eu ac eget ac. Condimentum faucibus facilisis vitae at volutpat nunc.
+                  Dive into a culinary journey at Sadesa Restaurant, where we blend traditional flavors with modern culinary techniques. Nestled in the heart of Bandung, our restaurant offers a cozy and inviting atmosphere, perfect for family gatherings, romantic dinners, or casual dining with friends. Enjoy our diverse menu featuring a variety of delicious dishes, from grilled specialties to mouth-watering pasta, all crafted with the freshest ingredients. Come and experience the unique ambiance and exceptional service that make Sadesa Restaurant a must-visit destination for food lovers.
                 </p>
                 <br>
                 <p>
