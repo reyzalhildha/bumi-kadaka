@@ -16,6 +16,13 @@ body {
         font-family: "Open Sans", sans-serif;
     }
 
+    textarea {
+        ::placeholder {
+            color: red;
+            -webkit-text-fill-color: red;
+        }
+    }
+
     .de-light {
         font-family: "Work Sans", sans-serif;
         font-size: 24px;

@@ -15,4 +15,28 @@
   <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <script src="./resources/js/function.js"></script>
+  <script>
+        function sendEmail() {
+            // Ambil data dari form
+            const form = document.getElementById("emailForm");
+            const formData = new FormData(form);
+
+            // Ambil nilai input
+            const firstName = formData.get("firstName");
+            const lastName = formData.get("lastName");
+            const subject = formData.get("subject");
+            const email = formData.get("email");
+            const message = formData.get("message");
+
+            // Format mailto link
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+                `First Name: ${firstName}\n` +
+                `Last Name: ${lastName}\n` +
+                `Message: ${message}`
+            )}`;
+
+            // Buka mailto link
+            window.location.href = mailtoLink;
+        }
+    </script>
 </head>
