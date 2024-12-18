@@ -325,7 +325,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-1.png" alt="" class="h-[166px] w-[392px]">
+                      <img src="./resources/img/home/feature-1a.jpg" alt="" class="h-[166px] w-[392px] object-cover object-bottom">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">
@@ -345,7 +345,7 @@
                       <div class="w-[396px] h-[298px] 
                                     lg:w-[249px] 
                                     xl:w-[342px]">
-                        <img src="./resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px]">
+                        <img src="./resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px] object-cover">
 
                         <div class="mt-[20px] text-white text-[28px] font-[700]
                                     lg:text-[18px]">
@@ -365,7 +365,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px]">
+                      <img src="./resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px] object-cover object-center">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">
