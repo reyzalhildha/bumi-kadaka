@@ -101,7 +101,7 @@
         <div class="mx-[50px]">
           <div class="items-center">
             <div class="flex items-center">
-              <img class="w-[735px] h-[571px] 
+              <img class="w-[735px] h-[571px] hover:scale-105 ease-in-out duration-300
                           lg:w-[500px] lg:h-[auto]
                           xl:w-[650px] xl:h-[auto]"
                 src="./resources/img/home/about-us-home.png" alt="">
@@ -229,8 +229,12 @@
                   sm:block">
         <div class="mt-[90px]">
           <div class="w-full grid grid-cols-2">
-            <img class="w-full hover:brightness-50 hover:duration-400" src="https://bumikadaka.com/resources/img/home/doc-image-real.png" alt="forest hills hotel ciwidey" />
-            <img class="w-full hover:brightness-50 hover:duration-400" src="https://bumikadaka.com/resources/img/home/doc-image-real-1.png" alt="sadesa restaurant" />
+            <a href="#">
+              <img class="w-full hover:brightness-50 hover:duration-400" src="https://bumikadaka.com/resources/img/home/doc-image-real.png" alt="forest hills hotel ciwidey" />
+            </a>
+            <a href="#">
+              <img class="w-full hover:brightness-50 hover:duration-400" src="https://bumikadaka.com/resources/img/home/doc-image-real-1.png" alt="sadesa restaurant" />
+            </a>
           </div>
         </div>
       </div>
@@ -275,7 +279,7 @@
               </div>
             </div>
             <div class="m-0">
-              <img class="w-[500px] h-auto" src="./resources/img/home/annual-report.png" alt="">
+              <img class="w-[500px] h-auto hover:scale-105 ease-in-out duration-300" src="./resources/img/home/annual-report.png" alt="">
             </div>
           </div>
         </div>
@@ -325,7 +329,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-1a.jpg" alt="" class="h-[166px] w-[392px] object-cover object-bottom">
+                      <img src="./resources/img/home/feature-1a.jpg" alt="" class="h-[166px] w-[392px] object-cover object-bottom hover:scale-105 ease-in-out duration-300">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">
@@ -345,7 +349,7 @@
                       <div class="w-[396px] h-[298px] 
                                     lg:w-[249px] 
                                     xl:w-[342px]">
-                        <img src="./resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px] object-cover">
+                        <img src="./resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px] object-cover hover:scale-105 ease-in-out duration-300">
 
                         <div class="mt-[20px] text-white text-[28px] font-[700]
                                     lg:text-[18px]">
@@ -365,7 +369,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px] object-cover object-center">
+                      <img src="./resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px] object-cover object-center hover:scale-105 ease-in-out duration-300">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">

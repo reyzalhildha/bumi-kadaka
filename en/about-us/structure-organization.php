@@ -42,18 +42,18 @@
           <div class="chief-officer px-8">
             <div class="officer grid mt-[50px]">
               <div class="w-[235px] min-[368px]:w-[326px] flex justify-center">
-                <img src="/bumi-kadaka/resources/img/about-us/ceo.png"
+                <img src="/bumi-kadaka/resources/img/about-us/Komisaris.jpg"
                   class="w-full h-auto">
               </div>
 
               <div class="w-full">
                 <div class="font-[700] font-bold text-[36px] text-left">
-                  CHIEF EXECUTIVE OFFICER (CEO)
+                  KOMISARIS
                 </div>
                 <div class="font-[700] font-bold text-[24px] text-left
                             xl:mt-[15px]
                             lg:mt-[15px]">
-                  Mr. SUPRIYANTO
+                  Hadiyanto Wibowo
                 </div>
                 <div class="text-left
                             xl:mt-[10px]

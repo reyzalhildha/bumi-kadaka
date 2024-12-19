@@ -27,7 +27,7 @@
             <div class="grid lg:flex mt-[50px]">
               <div class="w-full hidden lg:block">
                 <img src="/bumi-kadaka/resources/img/our-brands/hotels-1.png"
-                  class="w-full object-cover object-center h-[576px]">
+                  class="w-full object-cover object-center h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
               <div class="w-full text-justify px-0 lg:pl-8">
                 <p>
@@ -58,7 +58,7 @@
               </div>
               <div class="w-full mt-6 lg:mt-0 justify-items-end">
                 <img src="/bumi-kadaka/resources/img/our-brands/hotels-2.png"
-                  class="w-full h-[300px] object-cover object-center lg:h-[576px]">
+                  class="w-full h-[300px] object-cover object-center lg:h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
           </div>
@@ -78,16 +78,16 @@
             </div>
 
             <div class="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" align="center">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-1.png" alt="" class="w-full h-[250px] object-cover">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-2.png" alt="" class="w-full h-[250px] object-cover">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-3.png" alt="" class="w-full h-[250px] object-cover">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-4.png" alt="" class="w-full h-[250px] object-cover">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-5.png" alt="" class="w-full h-[250px] object-cover">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-6.png" alt="" class="w-full h-[250px] object-cover">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-1.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-2.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-3.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-4.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-5.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="/bumi-kadaka/resources/img/our-brands/hotel-6.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
             </div>
           </div>
         </div>
-        
+
         <div class="bg-[#307060] h-[27px] w-full">
         </div>
       </div>
