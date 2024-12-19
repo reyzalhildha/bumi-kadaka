@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 
-<?php include 'https://bumikadaka.com/header.php' ?>
+<?php include '../header.php' ?>
 
 <body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include 'https://bumikadaka.com/nav.php' ?>
+  <?php include '../nav.php' ?>
 
   <div class="container-kadaka">
     <div class="content-kadaka">
@@ -93,7 +93,7 @@
       </div>
       <!-- END MAIN -->
 
-      <?php include 'https://bumikadaka.com/footer.php' ?>
+      <?php include '../footer.php' ?>
 
     </div>
   </div>
