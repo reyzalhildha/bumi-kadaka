@@ -36,7 +36,7 @@
               </div>
               <div class="w-full mt-[50px]">
                 <img src="/bumi-kadaka/resources/img/about-us/vision-mission.png"
-                  class="w-full h-[95px] object-cover object center md:h-[374px]">
+                  class="w-full h-[95px] object-cover object center md:h-[374px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
               </div>
               <div class="w-full">
                 <img src="/bumi-kadaka/resources/img/about-us/vision.png"
-                  class="w-full h-[95px] object-cover object center md:h-[374px]">
+                  class="w-full h-[95px] object-cover object center md:h-[374px] hover:scale-105 ease-in-out duration-300">
 
               </div>
             </div>
@@ -76,15 +76,15 @@
 
             <div class="gap-8 flex-wrap justify-center mt-[50px] hidden sm:flex">
               <img src="/bumi-kadaka/resources/img/about-us/nature.png"
-                class="w-auto">
+                class="w-auto hover:scale-105 ease-in-out duration-300">
               <img src="/bumi-kadaka/resources/img/about-us/ordinary.png"
-                class="w-auto">
+                class="w-auto hover:scale-105 ease-in-out duration-300">
               <img src="/bumi-kadaka/resources/img/about-us/sustain.png"
-                class="w-auto">
+                class="w-auto hover:scale-105 ease-in-out duration-300">
               <img src="/bumi-kadaka/resources/img/about-us/inspire.png"
-                class="w-auto">
+                class="w-auto hover:scale-105 ease-in-out duration-300">
               <img src="/bumi-kadaka/resources/img/about-us/cultivate.png"
-                class="w-auto">
+                class="w-auto hover:scale-105 ease-in-out duration-300">
             </div>
 
             <div class="missions gap-4 grid sm:hidden">
@@ -182,7 +182,7 @@
 
               <div class="w-full hidden xl:flex xl:justify-end">
                 <img src="/bumi-kadaka/resources/img/about-us/present.png" alt=""
-                  class="h-[542px]">
+                  class="h-[542px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
           </div>

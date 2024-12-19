@@ -27,7 +27,7 @@
             <div class="grid lg:flex mt-[50px]">
               <div class="w-full hidden lg:block">
                 <img src="../../resources/img/about-us/histories-content-1.png" alt="history"
-                  class="w-full object-cover object-center h-[576px]">
+                  class="w-full object-cover object-center h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
               <div class="w-full text-justify px-0 lg:pl-8">
                 <p>
@@ -88,7 +88,7 @@
               </div>
               <div class="w-full mt-6 lg:mt-0 justify-items-end">
                 <img src="../../resources/img/about-us/histories-content-2.png" alt="history"
-                  class="w-full h-[300px] object-cover object-center lg:h-[576px]">
+                  class="w-full h-[300px] object-cover object-center lg:h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
           </div>

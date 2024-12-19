@@ -16,8 +16,8 @@
 
         <div class="mt-[20px] text-[#4F4F4F] text-[14px]
                     lg:-text[14px]">
-          <div class="mt-[5px]">Home</div>
-          <div class="mt-[5px]">About</div>
+          <div class="mt-[5px]"><a href="/bumi-kadaka/index.php" class="hover:text-[#EFAE93]">Home</a></div>
+          <div class="mt-[5px]"><a href="/bumi-kadaka/en/about-us/history.php" class="hover:text-[#EFAE93]">About</a></div>
         </div>
       </div>
 
@@ -26,8 +26,8 @@
 
         <div class="mt-[20px] text-[#4F4F4F] text-[14px]
                     lg:w-[120px] lg:-text[14px]">
-          <div class="mt-[5px]">Our Company</div>
-          <div class="mt-[5px]">Contact</div>
+          <div class="mt-[5px]"><a href="#" class="hover:text-[#EFAE93]">Our Company</a></div>
+          <div class="mt-[5px]"><a href="/bumi-kadaka/en/contact-us.php" class="hover:text-[#EFAE93]">Contact</a></div>
         </div>
       </div>
     </div>
@@ -43,9 +43,9 @@
         <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
       </div>
       <div class="gap-0 grid grid-cols-1 justify-items-center sm:grid-cols-3">
-        <span class="text-white text-[14px]">Accessibility</span>
-        <span class="text-white text-[14px]">Legal</span>
-        <span class="text-white text-[14px]">Privacy Statement</span>
+        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Accessibility</a></span>
+        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Legal</a></span>
+        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Privacy Statement</a></span>
       </div>
     </div>
   </div>

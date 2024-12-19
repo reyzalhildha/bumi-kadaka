@@ -19,13 +19,15 @@
         class="flex items-center p-6 w-full m-auto max-[1023px]:hidden">
         <div class="w-full flex justify-between">
             <div class="w-full flex items-center">
-                <img class="h-8 h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
+                <a href="/bumi-kadaka/index.php">
+                    <img class="h-8 h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
+                </a>
             </div>
             <div class="w-full">
                 <ul class="flex flex-nowrap items-center justify-end font-medium text-sm">
                     <li class="p-4 
                    lg:px-8">
-                        <a class="text-slate-800 hover:text-slate-900 font-bold text-[15px]" href="/bumi-kadaka/index.php">Home</a>
+                        <a class="text-slate-800 font-normal text-[15px] hover:text-[#EFAE93]" href="/bumi-kadaka/index.php">Home</a>
                     </li>
                     <li class="p-4 
                     lg:px-8
@@ -33,7 +35,7 @@
                         x-data="{ open: false }"
                         @mouseenter="open = true"
                         @mouseleave="open = false" style="margin-right: -20px;">
-                        <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px] cursor-default"
+                        <a class="text-slate-800 font-normal text-[15px] cursor-default hover:text-[#EFAE93]"
                             href="#0"
                             :aria-expanded="open">About Us</a>
 
@@ -86,7 +88,7 @@
                         @mouseenter="open = true"
                         @mouseleave="open = false" style="margin-right: -20px;">
 
-                        <a class="text-slate-800 hover:text-slate-900 font-normal text-[15px] cursor-default"
+                        <a class="text-slate-800 font-normal text-[15px] cursor-default hover:text-[#EFAE93]"
                             href="#0"
                             :aria-expanded="open">Our Brands</a>
 
@@ -120,7 +122,7 @@
                     </li>
                     <li class="p-4 
                     lg:px-8">
-                        <a class="text-slate-800 hover:text-slate-900 font-normal" href="/bumi-kadaka/en/contact-us.php">Contact Us</a>
+                        <a class="text-slate-800 font-normal hover:text-[#EFAE93]" href="/bumi-kadaka/en/contact-us.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
