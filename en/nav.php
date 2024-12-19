@@ -19,15 +19,15 @@
         class="flex items-center p-6 w-full m-auto max-[1023px]:hidden">
         <div class="w-full flex justify-between">
             <div class="w-full flex items-center">
-                <a href="/bumi-kadaka/index.php">
-                    <img class="h-8 h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
+                <a href="https://bumikadaka.com/index.php">
+                    <img class="h-8 h-[40.117px]" src="https://bumikadaka.com/resources/img/logo/logo-bumi-kadaka.svg" alt="">
                 </a>
             </div>
             <div class="w-full">
                 <ul class="flex flex-nowrap items-center justify-end font-medium text-sm">
                     <li class="p-4 
                    lg:px-8">
-                        <a class="text-slate-800 font-normal text-[15px] hover:text-[#EFAE93]" href="/bumi-kadaka/index.php">Home</a>
+                        <a class="text-slate-800 font-normal text-[15px] hover:text-[#EFAE93]" href="https://bumikadaka.com/index.php">Home</a>
                     </li>
                     <li class="p-4 
                     lg:px-8
@@ -55,27 +55,27 @@
                             x-cloak
                             @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/history.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/history.php">
                                     <span class="whitespace-nowrap">History</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/vision-mission.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/vision-mission.php">
                                     <span class="whitespace-nowrap">Vission Mission</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/history.php/#milestone">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/history.php/#milestone">
                                     <span class="whitespace-nowrap">Milestone</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/awards.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/awards.php">
                                     <span class="whitespace-nowrap">Awards</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/about-us/structure-organization.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/structure-organization.php">
                                     <span class="whitespace-nowrap">Structure Organization</span>
                                 </a>
                             </li>
@@ -109,12 +109,12 @@
                             x-cloak
                             @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/our-brands/hotels.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/our-brands/hotels.php">
                                     <span class="whitespace-nowrap">Hotels</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="/bumi-kadaka/en/our-brands/restaurants.php">
+                                <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/our-brands/restaurants.php">
                                     <span class="whitespace-nowrap">Restaurant</span>
                                 </a>
                             </li>
@@ -122,7 +122,7 @@
                     </li>
                     <li class="p-4 
                     lg:px-8">
-                        <a class="text-slate-800 font-normal hover:text-[#EFAE93]" href="/bumi-kadaka/en/contact-us.php">Contact Us</a>
+                        <a class="text-slate-800 font-normal hover:text-[#EFAE93]" href="https://bumikadaka.com/en/contact-us.php">Contact Us</a>
                     </li>
                 </ul>
             </div>

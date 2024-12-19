@@ -3,7 +3,7 @@
 
 <?php include 'header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
   <?php include 'nav.php' ?>
 
@@ -18,7 +18,7 @@
 
       <!-- MAIN -->
       <div class="flex w-full flex-col">
-        <div class="bg-[url('../resources/img/contact-us/contact-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/contact-us/contact-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
           <span class="text-white text-[30px] font-bold">Contact Us</span>
@@ -40,7 +40,7 @@
 
               <div class="grid font-bold" style="grid-template-columns: 45px 1fr">
                 <div class="w-[100px]">
-                  <img src="/bumi-kadaka/resources/img/contact-us/location.png">
+                  <img src="https://bumikadaka.com/resources/img/contact-us/location.png">
                 </div>
                 <div>
                   <p>
@@ -51,7 +51,7 @@
 
               <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
                 <div class="w-[45px]">
-                  <img src="/bumi-kadaka/resources/img/contact-us/phone.png">
+                  <img src="https://bumikadaka.com/resources/img/contact-us/phone.png">
                 </div>
                 <div>
                   <p>
@@ -62,7 +62,7 @@
 
               <!-- <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
                 <div class="w-[45px]">
-                  <img src="/bumi-kadaka/resources/img/contact-us/whatsapp.png">
+                  <img src="https://bumikadaka.com/resources/img/contact-us/whatsapp.png">
                 </div>
                 <div>
                   <p>
@@ -73,7 +73,7 @@
 
               <div class="grid font-bold mt-[20px]" style="grid-template-columns: 45px 1fr">
                 <div class="w-[45px]">
-                  <img src="/bumi-kadaka/resources/img/contact-us/email.png">
+                  <img src="https://bumikadaka.com/resources/img/contact-us/email.png">
                 </div>
                 <div>
                   <p>

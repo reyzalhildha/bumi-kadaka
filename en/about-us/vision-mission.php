@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php' ?>
+<?php include 'https://bumikadaka.com/header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php' ?>
+  <?php include 'https://bumikadaka.com/nav.php' ?>
 
   <div class="container-kadaka">
     <div class="content-kadaka">
 
       <!-- MAIN -->
       <div class="flex w-full flex-col">
-        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
           <span class="text-white text-[30px] font-bold">About Us</span>
@@ -35,7 +35,7 @@
                 </p>
               </div>
               <div class="w-full mt-[50px]">
-                <img src="/bumi-kadaka/resources/img/about-us/vision-mission.png"
+                <img src="https://bumikadaka.com/resources/img/about-us/vision-mission.png"
                   class="w-full h-[95px] object-cover object center md:h-[374px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
@@ -57,7 +57,7 @@
                 </p>
               </div>
               <div class="w-full">
-                <img src="/bumi-kadaka/resources/img/about-us/vision.png"
+                <img src="https://bumikadaka.com/resources/img/about-us/vision.png"
                   class="w-full h-[95px] object-cover object center md:h-[374px] hover:scale-105 ease-in-out duration-300">
 
               </div>
@@ -75,49 +75,49 @@
             </div>
 
             <div class="gap-8 flex-wrap justify-center mt-[50px] hidden sm:flex">
-              <img src="/bumi-kadaka/resources/img/about-us/nature.png"
+              <img src="https://bumikadaka.com/resources/img/about-us/nature.png"
                 class="w-auto hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/about-us/ordinary.png"
+              <img src="https://bumikadaka.com/resources/img/about-us/ordinary.png"
                 class="w-auto hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/about-us/sustain.png"
+              <img src="https://bumikadaka.com/resources/img/about-us/sustain.png"
                 class="w-auto hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/about-us/inspire.png"
+              <img src="https://bumikadaka.com/resources/img/about-us/inspire.png"
                 class="w-auto hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/about-us/cultivate.png"
+              <img src="https://bumikadaka.com/resources/img/about-us/cultivate.png"
                 class="w-auto hover:scale-105 ease-in-out duration-300">
             </div>
 
             <div class="missions gap-4 grid sm:hidden">
               <div class="relative">
-                <img src="/bumi-kadaka/resources/img/about-us/missions-1.jpg"
+                <img src="https://bumikadaka.com/resources/img/about-us/missions-1.jpg"
                   class="w-full h-[7em] object-cover object-center brightness-50">
                 <div class="w-full h-full absolute top-0 flex items-center justify-center">
                   <p>Connect With Nature</p>
                 </div>
               </div>
               <div class="relative">
-                <img src="/bumi-kadaka/resources/img/about-us/missions-2.jpg"
+                <img src="https://bumikadaka.com/resources/img/about-us/missions-2.jpg"
                   class="w-full h-[7em] object-cover object-center brightness-50">
                 <div class="w-full h-full absolute top-0 flex items-center justify-center">
                   <p>Disrupt the Ordinary</p>
                 </div>
               </div>
               <div class="relative">
-                <img src="/bumi-kadaka/resources/img/about-us/missions-3.jpg"
+                <img src="https://bumikadaka.com/resources/img/about-us/missions-3.jpg"
                   class="w-full h-[7em] object-cover object-center brightness-50">
                 <div class="w-full h-full absolute top-0 flex items-center justify-center">
                   <p>Sustainability</p>
                 </div>
               </div>
               <div class="relative">
-                <img src="/bumi-kadaka/resources/img/about-us/missions-4.jpg"
+                <img src="https://bumikadaka.com/resources/img/about-us/missions-4.jpg"
                   class="w-full h-[7em] object-cover object-center brightness-50">
                 <div class="w-full h-full absolute top-0 flex items-center justify-center">
                   <p>Inspire Discovery</p>
                 </div>
               </div>
               <div class="relative">
-                <img src="/bumi-kadaka/resources/img/about-us/missions-5.jpg"
+                <img src="https://bumikadaka.com/resources/img/about-us/missions-5.jpg"
                   class="w-full h-[7em] object-cover object-center brightness-50">
                 <div class="w-full h-full absolute top-0 flex items-center justify-center">
                   <p>Cultivate Passionate Teams</p>
@@ -181,7 +181,7 @@
               </div>
 
               <div class="w-full hidden xl:flex xl:justify-end">
-                <img src="/bumi-kadaka/resources/img/about-us/present.png" alt=""
+                <img src="https://bumikadaka.com/resources/img/about-us/present.png" alt=""
                   class="h-[542px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
@@ -195,7 +195,7 @@
       </div>
       <!-- END MAIN -->
 
-      <?php include '../footer.php' ?>
+      <?php include 'https://bumikadaka.com/footer.php' ?>
 
     </div>
   </div>

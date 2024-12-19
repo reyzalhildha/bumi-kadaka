@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php'?>
+<?php include 'https://bumikadaka.com/header.php'?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php'?>
+  <?php include 'https://bumikadaka.com/nav.php'?>
 
   <div style="margin: auto;" 
        class="w-[1440px]
@@ -22,7 +22,7 @@
                   min-[412px]:hidden 
                   min-[390px]:hidden
                   min-[320px]:hidden">
-        <div class="bg-[url('../../resources/img/article/the-loungue.png')] mt-[125px] w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/article/the-loungue.png')] mt-[125px] w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
             <span class="text-white text-[30px] font-bold">Articles</span>
@@ -37,7 +37,7 @@
                       xl:mt-[50px]
                       lg:mt-[50px]">
             <div class="w-[45%]">
-              <img src="/bumi-kadaka/resources/img/article/the-loungue-1.png" 
+              <img src="https://bumikadaka.com/resources/img/article/the-loungue-1.png" 
                       class="lg:w-[457px] lg:h-[222px]">
             </div>
             <div class="w-[55%] text-justify">
@@ -64,7 +64,7 @@
                 </p>
               </div>
               <div class="w-[40%]">
-                <img src="/bumi-kadaka/resources/img/article/the-loungue-2.png" 
+                <img src="https://bumikadaka.com/resources/img/article/the-loungue-2.png" 
                         class="lg:w-[457px] lg:h-[408px]">
             </div>        
           </div>
@@ -78,7 +78,7 @@
     </div>
     <!-- END MAIN -->
 
-    <?php include '../footer.php'?>
+    <?php include 'https://bumikadaka.com/footer.php'?>
 
   </div>
 </body>

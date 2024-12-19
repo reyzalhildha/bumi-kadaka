@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php' ?>
+<?php include 'https://bumikadaka.com/header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php' ?>
+  <?php include 'https://bumikadaka.com/nav.php' ?>
 
   <div class="container-kadaka">
     <div class="content-kadaka">
 
       <!-- MAIN -->
       <div class="flex w-full flex-col">
-        <div class="bg-[url('../../resources/img/our-brands/hotels.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/our-brands/hotels.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-auto p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
           <span class="text-white text-[30px] font-bold">Forest Hills Hotel Ciwidey</span>
@@ -26,7 +26,7 @@
 
             <div class="grid lg:flex mt-[50px]">
               <div class="w-full hidden lg:block">
-                <img src="/bumi-kadaka/resources/img/our-brands/hotels-1.png"
+                <img src="https://bumikadaka.com/resources/img/our-brands/hotels-1.png"
                   class="w-full object-cover object-center h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
               <div class="w-full text-justify px-0 lg:pl-8">
@@ -41,7 +41,7 @@
                 </p>
               </div>
               <div class="w-full block lg:hidden mt-6">
-                <img src="/bumi-kadaka/resources/img/our-brands/hotels-1.png"
+                <img src="https://bumikadaka.com/resources/img/our-brands/hotels-1.png"
                   class="w-full h-[300px] object-cover object-center">
               </div>
             </div>
@@ -57,7 +57,7 @@
                 </p>
               </div>
               <div class="w-full mt-6 lg:mt-0 justify-items-end">
-                <img src="/bumi-kadaka/resources/img/our-brands/hotels-2.png"
+                <img src="https://bumikadaka.com/resources/img/our-brands/hotels-2.png"
                   class="w-full h-[300px] object-cover object-center lg:h-[576px] hover:scale-105 ease-in-out duration-300">
               </div>
             </div>
@@ -78,12 +78,12 @@
             </div>
 
             <div class="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" align="center">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-1.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-2.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-3.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-4.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-5.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
-              <img src="/bumi-kadaka/resources/img/our-brands/hotel-6.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-1.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-2.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-3.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-4.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-5.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
+              <img src="https://bumikadaka.com/resources/img/our-brands/hotel-6.png" alt="" class="w-full h-[250px] object-cover hover:scale-105 ease-in-out duration-300">
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@
       </div>
       <!-- END MAIN -->
 
-      <?php include '../footer.php' ?>
+      <?php include 'https://bumikadaka.com/footer.php' ?>
 
     </div>
   </div>

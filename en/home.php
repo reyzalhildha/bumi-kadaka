@@ -2,7 +2,7 @@
 <html>
 <?php include 'header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('./resources/img/bg/background.svg')] bg-center work-sans">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center work-sans">
 
   <?php include 'nav.php' ?>
   <div class="container-kadaka">
@@ -18,17 +18,17 @@
                       h-[202px] min-[461px]:h-[243px] min-[557px]:h-[320px] min-[925px]:h-[460px] 
                       min-[1125px]:h-[517px] min-[1293px]:h-[598px]">
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-              <img src="./resources/img/slider/slider-1a.png"
+              <img src="https://bumikadaka.com/resources/img/slider/slider-1a.png"
                 class="absolute hidden w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                         lg:w-[100%] min-[925px]:block">
-              <img src="./resources/img/slider/slider-mobile-1a.png"
+              <img src="https://bumikadaka.com/resources/img/slider/slider-mobile-1a.png"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                         lg:w-[100%] min-[925px]:hidden">
             </div>
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-              <img src="./resources/img/slider/slider-2.png" class="absolute hidden w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+              <img src="https://bumikadaka.com/resources/img/slider/slider-2.png" class="absolute hidden w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                         lg:w-[100%] min-[925px]:block">
-              <img src="./resources/img/slider/slider-mobile-2a.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+              <img src="https://bumikadaka.com/resources/img/slider/slider-mobile-2a.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                         lg:w-[100%] min-[925px]:hidden">
             </div>
           </div>
@@ -55,7 +55,7 @@
       <!-- MOBILE // di hidden dulu -->
       <div class="flex w-full flex-col hidden">
         <div class="relative">
-          <img src="./resources/img/slider/slider-image-1.png"
+          <img src="https://bumikadaka.com/resources/img/slider/slider-image-1.png"
             class="w-full h-[200px] min-[768px]:h-[300px] object-cover">
 
           <div class="relative w-full bottom-0
@@ -104,7 +104,7 @@
               <img class="w-[735px] h-[571px] hover:scale-105 ease-in-out duration-300
                           lg:w-[500px] lg:h-[auto]
                           xl:w-[650px] xl:h-[auto]"
-                src="./resources/img/home/about-us-home.png" alt="">
+                src="https://bumikadaka.com/resources/img/home/about-us-home.png" alt="">
 
               <div class="pl-[50px] mt-[60px] w-full lg:mt-[0px;]">
                 <div class="text-left 
@@ -125,7 +125,7 @@
                 <div class="text-[#2F2E2E] text-[24px] non-italic font-bold text-left
                           lg:text-[14px]
                           xl:text-[20px]">
-                  <a href="en/about-us/history.php" class="hover:text-[#EFAE93]">Read More . . .</a>
+                  <a href="https://bumikadaka.com/en/about-us/history.php" class="hover:text-[#EFAE93]">Read More . . .</a>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
                     min-[390px]:block
                     min-[320px]:block">
         <div class="mt-[20px]">
-          <img src="./resources/img/home/about-us-home.png"
+          <img src="https://bumikadaka.com/resources/img/home/about-us-home.png"
             class="w-full h-[200px] min-[768px]:h-[300px] object-cover">
         </div>
         <div class="h-[92px] text-justify">
@@ -162,7 +162,7 @@
       <div class="flex w-full flex-col hidden
                   lg:block 
                   xl:block">
-        <div class="mt-[80px] h-[245px] bg-[url('./resources/img/bg/documentary.png')] 
+        <div class="mt-[80px] h-[245px] bg-[url('https://bumikadaka.com/resources/img/bg/documentary.png')] 
                       lg:h-[185px]
                       xl:h-[200px]">
           <div class="text-center font-medium non-italic w-auto
@@ -194,7 +194,7 @@
                     min-[412px]:block
                     min-[390px]:block
                     min-[320px]:block">
-        <div class="mt-[40px] h-[160px] bg-no-repeat bg-cover bg-[url('./resources/img/mobile/documentary-mobile.png')]">
+        <div class="mt-[40px] h-[160px] bg-no-repeat bg-cover bg-[url('https://bumikadaka.com/resources/img/mobile/documentary-mobile.png')]">
           <div class="text-center font-medium non-italic w-auto">
             <br>
             <span class=" text-white font-[500] 
@@ -244,8 +244,8 @@
       <div class="flex w-full flex-col mt-[1em]
                     sm:hidden 
                     min-[320px]:block">
-        <img class="w-full" src="./resources/img/mobile/moving-image-top.png" alt="moving top" />
-        <img class="w-full" src="./resources/img/mobile/moving-image-bottom.png" alt="moving bottom" />
+        <img class="w-full" src="https://bumikadaka.com/resources/img/mobile/moving-image-top.png" alt="moving top" />
+        <img class="w-full" src="https://bumikadaka.com/resources/img/mobile/moving-image-bottom.png" alt="moving bottom" />
       </div>
       <!-- END MOBILE -->
       <!-- END MOVING IMAGE -->
@@ -279,7 +279,7 @@
               </div>
             </div>
             <div class="m-0">
-              <img class="w-[500px] h-auto hover:scale-105 ease-in-out duration-300" src="./resources/img/home/annual-report.png" alt="">
+              <img class="w-[500px] h-auto hover:scale-105 ease-in-out duration-300" src="https://bumikadaka.com/resources/img/home/annual-report.png" alt="">
             </div>
           </div>
         </div>
@@ -290,7 +290,7 @@
                     lg:hidden 
                     xl:hidden">
         <div class="mt-[20px]">
-          <img src="./resources/img/mobile/annual-report-mobile.png" class="w-full">
+          <img src="https://bumikadaka.com/resources/img/mobile/annual-report-mobile.png" class="w-full">
         </div>
         <div class="h-[92px] text-justify">
           <div class="w-full" style="padding: 1em 1em 0 1em">
@@ -329,7 +329,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-1a.jpg" alt="" class="h-[166px] w-[392px] object-cover object-bottom hover:scale-105 ease-in-out duration-300">
+                      <img src="https://bumikadaka.com/resources/img/home/feature-1a.jpg" alt="" class="h-[166px] w-[392px] object-cover object-bottom hover:scale-105 ease-in-out duration-300">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">
@@ -344,12 +344,12 @@
                 </div>
 
                 <div class="float-left">
-                  <a href="en/article/the-loungue.php">
+                  <a href="https://bumikadaka.com/en/article/the-loungue.php">
                     <div class="w-[100%] text-left mt-[40px] ml-[76px]">
                       <div class="w-[396px] h-[298px] 
                                     lg:w-[249px] 
                                     xl:w-[342px]">
-                        <img src="./resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px] object-cover hover:scale-105 ease-in-out duration-300">
+                        <img src="https://bumikadaka.com/resources/img/home/feature-2.png" alt="" class="h-[166px] w-[392px] object-cover hover:scale-105 ease-in-out duration-300">
 
                         <div class="mt-[20px] text-white text-[28px] font-[700]
                                     lg:text-[18px]">
@@ -369,7 +369,7 @@
                     <div class="w-[396px] h-[298px] 
                                 lg:w-[249px] 
                                 xl:w-[342px]">
-                      <img src="./resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px] object-cover object-center hover:scale-105 ease-in-out duration-300">
+                      <img src="https://bumikadaka.com/resources/img/home/feature-3.png" alt="" class="h-[166px] w-[392px] object-cover object-center hover:scale-105 ease-in-out duration-300">
 
                       <div class="mt-[20px] text-white text-[28px] font-[700]
                                 lg:text-[12px]">
@@ -398,7 +398,7 @@
           <div class="overflow-auto">
             <div class="w-full text-left mt-[20px] h-[270px]">
               <div class="w-[140px] h-[90px]">
-                <img src="./resources/img/home/feature-1.png" alt="" class="w-[140px] h-[95px]">
+                <img src="https://bumikadaka.com/resources/img/home/feature-1.png" alt="" class="w-[140px] h-[95px]">
 
                 <div class="mt-[10px] text-white text-[12px] font-bold">
                   Bumi Kadaka at Demo Day KreatIPO 2024
@@ -410,7 +410,7 @@
               </div>
 
               <div class="w-[140px] h-[90px] ml-[170px] mt-[-90px]">
-                <img src="./resources/img/home/feature-2.png" alt="" class="w-[140px] h-[95px]">
+                <img src="https://bumikadaka.com/resources/img/home/feature-2.png" alt="" class="w-[140px] h-[95px]">
 
                 <div class="mt-[10px] text-white text-[12px] font-bold">
                   The Lounge
@@ -421,7 +421,7 @@
               </div>
 
               <div class="w-[140px] h-[90px] ml-[340px] mt-[-90px]">
-                <img src="./resources/img/home/feature-3.png" alt="" class="w-[140px] h-[95px]">
+                <img src="https://bumikadaka.com/resources/img/home/feature-3.png" alt="" class="w-[140px] h-[95px]">
 
                 <div class="mt-[10px] text-white text-[12px] font-bold">
                   Playgorund

@@ -35,7 +35,7 @@
     @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)"
     style="background-color: white;">
     <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-      <a href="/bumi-kadaka/index.php">
+      <a href="https://bumikadaka.com/index.php">
         <div class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center pl-2">
           <p class="text-white text-[16px]">
             Home
@@ -67,27 +67,27 @@
           x-cloak
           @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/about-us/history.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/about-us/history.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               History
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/about-us/vision-mission.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/about-us/vision-mission.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Visi Misi
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/about-us/history.php/#milestone" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/about-us/history.php/#milestone" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Milestone
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/about-us/awards.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/about-us/awards.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Awards
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/about-us/structure-organization.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/about-us/structure-organization.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Structure Organization
             </a>
           </div>
@@ -117,12 +117,12 @@
           @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
 
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/our-brands/hotels.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/our-brands/hotels.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Hotels
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-            <a href="/bumi-kadaka/en/our-brands/restaurants.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
+            <a href="https://bumikadaka.com/en/our-brands/restaurants.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
               Restaurant
             </a>
           </div>
@@ -132,7 +132,7 @@
 
 
     <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-      <a href="/bumi-kadaka/index.php">
+      <a href="https://bumikadaka.com/index.php">
         <div class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center pl-2">
           <p class="text-white text-[16px]">
             Investor
@@ -141,7 +141,7 @@
       </a>
     </div>
     <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
-      <a href="/bumi-kadaka/en/contact-us.php">
+      <a href="https://bumikadaka.com/en/contact-us.php">
         <div class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center pl-2">
           <p class="text-white text-[16px]">
             Contact

@@ -4,7 +4,7 @@
               min-[1024px]:flex-nowrap
               min-[1024px]:gap-0" style="padding: 1em 3em">
     <div class="w-full grid justify-items-center min-[1024px]:justify-items-start">
-      <img class="h-8 w-[232px] h-[40.117px]" src="/bumi-kadaka/resources/img/logo/logo-bumi-kadaka.svg" alt="">
+      <img class="h-8 w-[232px] h-[40.117px]" src="https://bumikadaka.com/resources/img/logo/logo-bumi-kadaka.svg" alt="">
       <div class="w-full text-justify mt-[20px] text-[#2F2E2E] text-[17px] lg:text-[14px] lg:w-[396px]">
         PT Bumi Kadaka is designed to specialize in hotel, resort, culinary, and tourism services. Our approach harmonizes local uniqueness and natural beauty with technology and sustainable practices.
       </div>
@@ -16,8 +16,8 @@
 
         <div class="mt-[20px] text-[#4F4F4F] text-[14px]
                     lg:-text[14px]">
-          <div class="mt-[5px]"><a href="/bumi-kadaka/index.php" class="hover:text-[#EFAE93]">Home</a></div>
-          <div class="mt-[5px]"><a href="/bumi-kadaka/en/about-us/history.php" class="hover:text-[#EFAE93]">About</a></div>
+          <div class="mt-[5px]"><a href="https://bumikadaka.com/index.php" class="hover:text-[#EFAE93]">Home</a></div>
+          <div class="mt-[5px]"><a href="https://bumikadaka.com/en/about-us/history.php" class="hover:text-[#EFAE93]">About</a></div>
         </div>
       </div>
 
@@ -27,7 +27,7 @@
         <div class="mt-[20px] text-[#4F4F4F] text-[14px]
                     lg:w-[120px] lg:-text[14px]">
           <div class="mt-[5px]"><a href="#" class="hover:text-[#EFAE93]">Our Company</a></div>
-          <div class="mt-[5px]"><a href="/bumi-kadaka/en/contact-us.php" class="hover:text-[#EFAE93]">Contact</a></div>
+          <div class="mt-[5px]"><a href="https://bumikadaka.com/en/contact-us.php" class="hover:text-[#EFAE93]">Contact</a></div>
         </div>
       </div>
     </div>
