@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 
-<?php include '../header.php' ?>
+<?php include 'https://bumikadaka.com/header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('../../resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
 
-  <?php include '../nav.php' ?>
+  <?php include 'https://bumikadaka.com/nav.php' ?>
 
   <style type="text/css">
     ol,
@@ -21,7 +21,7 @@
 
       <!-- MAIN -->
       <div class="flex w-full flex-col">
-        <div class="bg-[url('../../resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
+        <div class="bg-[url('https://bumikadaka.com/resources/img/about-us/main-about-us.png')] bg-cover bg-no-repeat w-[100%] h-[550px]">
         </div>
         <div class="w-[100%] text-left mt-[-90px] h-[90px] p-[25px]" style="--tw-bg-opacity: 0.8;background-color: rgb(241 174 147 / var(--tw-bg-opacity));">
           <span class="text-white text-[30px] font-bold">About Us</span>
@@ -49,7 +49,7 @@
           <div class="flex flex-wrap flex-col-reverse xl:flex-nowrap xl:flex-row mt-[50px] px-0">
             <div class="flex justify-center text-justify w-full p-6">
               <img class="w-auto h-auto object-contain bg-white"
-                src="/bumi-kadaka/resources/img/about-us/tripadivisor.png"
+                src="https://bumikadaka.com/resources/img/about-us/tripadivisor.png"
                 style="border: 10px solid #307060;">
             </div>
 
@@ -133,7 +133,7 @@
         </div>
         <!-- END MAIN -->
 
-        <?php include '../footer.php' ?>
+        <?php include 'https://bumikadaka.com/footer.php' ?>
 
       </div>
     </div>
