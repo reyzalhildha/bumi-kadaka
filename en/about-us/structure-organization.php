@@ -48,7 +48,7 @@
 
               <div class="w-full">
                 <div class="font-[700] font-bold text-[36px] text-left">
-                  KOMISARIS
+                  CHIEF EXECUTIVE OFFICE (CEO)
                 </div>
                 <div class="font-[700] font-bold text-[24px] text-left
                             xl:mt-[15px]
