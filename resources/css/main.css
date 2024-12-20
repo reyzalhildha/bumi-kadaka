@@ -1,1 +1,11 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+}
+body .container-kadaka .content-kadaka .no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* Chrome, Safari and Opera */
+}
+body .container-kadaka .content-kadaka .no-scrollbar ::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
