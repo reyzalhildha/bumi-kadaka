@@ -1,6 +1,9 @@
 <head>
   <title>PT. Bumi Kadaka</title>
   <meta charset="UTF-8">
+  <meta name="description" content="PT. Bumi Kadaka - Corporate">
+  <meta name="keywords" content="kadaka, bumikadaka, bumi kadaka, BUMI KADAKA, Bumi Kadaka">
+  <meta name="author" content="PT. Bumi Kadaka - Corporate">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://bumikadaka.com/resources/img/ico/ico-bumi-kadaka.png" sizes="32x32">
   <link rel="stylesheet" href="https://bumikadaka.com/resources/css/main.css">
