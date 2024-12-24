@@ -84,7 +84,7 @@
                         Anda dapat meminta akses, pembaruan, atau penghapusan data pribadi Anda kapan saja.
                       </li>
                       <li>
-                        Untuk mengajukan permintaan, hubungi kami di privacy@nama-perusahaan.com.
+                        Untuk mengajukan permintaan, hubungi kami di contact@ptbumikadaka.com
                       </li>
                     </ul>
                   </li>
@@ -101,10 +101,10 @@
                     Jika Anda memiliki pertanyaan terkait kebijakan ini, silakan hubungi kami:
                     <ul class="list-disc ml-8">
                       <li>
-                        Email: privacy@nama-perusahaan.com
+                        Email: contact@ptbumikadaka.com
                       </li>
                       <li>
-                        Telepon: +62-xxx-xxx
+                        Telepon: (022) 30509995
                       </li>
                     </ul>
                   </li>

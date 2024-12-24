@@ -44,7 +44,7 @@
                     Penggunaan Konten
                     <ul class="list-disc ml-8">
                       <li>
-                        Semua konten di website ini, termasuk teks, gambar, logo, dan video, adalah milik [Nama Perusahaan] atau mitra yang telah memberikan lisensi.
+                        Semua konten di website ini, termasuk teks, gambar, logo, dan video, adalah milik PT. Bumi Kadaka atau mitra yang telah memberikan lisensi.
                       </li>
                       <li>
                         Dilarang menggandakan, menyebarkan, atau memodifikasi konten tanpa izin tertulis dari perusahaan.
@@ -66,10 +66,10 @@
                     Hukum yang Berlaku
                     <ul class="list-disc ml-8">
                       <li>
-                        Pernyataan hukum ini tunduk pada hukum yang berlaku di [Negara/Jurisdiksi].
+                        Pernyataan hukum ini tunduk pada hukum yang berlaku di Indonesia.
                       </li>
                       <li>
-                        Sengketa yang timbul akan diselesaikan melalui pengadilan di [Nama Kota/Jurisdiksi].
+                        Sengketa yang timbul akan diselesaikan melalui pengadilan di Soreang.
                       </li>
                     </ul>
                   </li>

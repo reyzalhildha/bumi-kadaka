@@ -97,8 +97,8 @@
                 </p>
                 <p>Silakan hubungi kami di:</p>
                 <ul class="list-disc ml-8">
-                  <li>Email: accessibility@nama-perusahaan.com</li>
-                  <li>Telepon: +62-xxx-xxx</li>
+                  <li>Email: contact@ptbumikadaka.com</li>
+                  <li>Telepon: (022) 30509995</li>
                 </ul>
                 <p>Kami akan berupaya untuk memberikan solusi yang sesuai dan segera memperbaiki kendala aksesibilitas yang Anda hadapi.</p>
                 <p class="font-bold">Pembaruan Kebijakan</p>
