@@ -2,7 +2,7 @@
 <html>
 <?php include 'header.php' ?>
 
-<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center work-sans">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-cover bg-center work-sans">
 
   <?php include 'nav.php' ?>
   <div class="container-kadaka">
@@ -320,7 +320,7 @@
                 </div>
 
                 <div class="gap-8 flex overflow-auto h-[500px] lg:h-auto">
-                  <div class="w-full">
+                  <div class="w-full grid justify-center">
                     <a href="#">
                       <div class="w-[100%] text-left mt-[40px]">
                         <div class="w-[400px] h-[298px]">
@@ -338,7 +338,7 @@
                     </a>
                   </div>
 
-                  <div class="w-full">
+                  <div class="w-full grid justify-center">
                     <a href="#">
                       <div class="w-[100%] text-left mt-[40px]">
                         <div class="w-[400px] h-[298px]">
@@ -355,7 +355,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="w-full">
+                  <div class="w-full grid justify-center">
                     <a href="#">
                       <div class="w-[100%] text-left mt-[40px]">
                         <div class="w-[400px] h-[298px]">
