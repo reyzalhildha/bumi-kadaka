@@ -73,7 +73,7 @@
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">
             <a href="https://bumikadaka.com/en/about-us/vision-mission.php" class="rounded-[10px] bg-[#F1AE93] h-[39px] flex items-center text-left text-white text-[16px] pl-2">
-              Visi Misi
+              Vision Mission
             </a>
           </div>
           <div class="pl-[30px] pr-[30px] pt-[10px] w-[100%]">

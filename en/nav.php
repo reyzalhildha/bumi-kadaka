@@ -61,7 +61,7 @@
                             </li>
                             <li>
                                 <a class="text-slate-800 hover:bg-[#EFAE93] hover:text-white flex items-center p-2 font-normal" href="https://bumikadaka.com/en/about-us/vision-mission.php">
-                                    <span class="whitespace-nowrap">Vission Mission</span>
+                                    <span class="whitespace-nowrap">Vision Mission</span>
                                 </a>
                             </li>
                             <li>
