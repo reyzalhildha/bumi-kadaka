@@ -43,9 +43,9 @@
         <span class="text-white text-[14px]">© PT. Bumi Kadaka 2024</span>
       </div>
       <div class="gap-0 grid grid-cols-1 justify-items-center sm:grid-cols-3">
-        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Accessibility</a></span>
-        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Legal</a></span>
-        <span class="text-white text-[14px]"><a href="#" class="hover:cursor-pointer">Privacy Statement</a></span>
+        <span class="text-white text-[14px]"><a href="https://bumikadaka.com/en/policy-information/accessibility.php" class="hover:cursor-pointer">Accessibility</a></span>
+        <span class="text-white text-[14px]"><a href="https://bumikadaka.com/en/policy-information/legal.php" class="hover:cursor-pointer">Legal</a></span>
+        <span class="text-white text-[14px]"><a href="https://bumikadaka.com/en/policy-information/privacy-statement.php" class="hover:cursor-pointer">Privacy Statement</a></span>
       </div>
     </div>
   </div>

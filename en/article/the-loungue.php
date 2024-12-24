@@ -3,7 +3,7 @@
 
 <?php include '../header.php'?>
 
-<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-center">
+<body align="center" class="bg-repeat-y bg-[url('https://bumikadaka.com/resources/img/bg/background.svg')] bg-cover bg-center">
 
   <?php include '../nav.php'?>
 
