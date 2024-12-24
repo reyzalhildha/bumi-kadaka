@@ -1,5 +1,5 @@
 <head>
-  <title>PT. Bumi Kadaka</title>
+  <title>PT. Bumi Kadaka - Corporate</title>
   <meta charset="UTF-8">
   <meta name="description" content="PT. Bumi Kadaka - Corporate">
   <meta name="keywords" content="kadaka, bumikadaka, bumi kadaka, BUMI KADAKA, Bumi Kadaka">
